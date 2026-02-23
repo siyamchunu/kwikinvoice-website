@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400" width="200" height="400">
+  <rect width="200" height="400" rx="16" fill="#fff"/>
+  <rect x="8" y="30" width="184" height="45" rx="6" fill="#2563EB"/>
+  <text x="100" y="58" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">New Invoice</text>
+  <text x="20" y="100" font-family="Arial" font-size="11" fill="#6B7280">Client</text>
+  <rect x="15" y="108" width="170" height="35" rx="6" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <text x="25" y="130" font-family="Arial" font-size="12" fill="#1F2937">Select client...</text>
+  <text x="20" y="165" font-family="Arial" font-size="11" fill="#6B7280">Invoice Date</text>
+  <rect x="15" y="173" width="170" height="35" rx="6" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <text x="25" y="195" font-family="Arial" font-size="12" fill="#1F2937">Feb 23, 2026</text>
+  <text x="20" y="230" font-family="Arial" font-size="11" fill="#6B7280">Line Items</text>
+  <rect x="15" y="238" width="170" height="80" rx="6" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <text x="25" y="260" font-family="Arial" font-size="10" fill="#1F2937">Consulting Services</text>
+  <text x="25" y="280" font-family="Arial" font-size="9" fill="#6B7280">2 hrs × $150</text>
+  <text x="175" y="280" font-family="Arial" font-size="10" fill="#1F2937" text-anchor="end">$300</text>
+  <circle cx="100" cy="305" r="12" fill="#DBEAFE"/>
+  <text x="100" y="310" font-family="Arial" font-size="16" fill="#2563EB" text-anchor="middle">+</text>
+  <rect x="15" y="340" width="170" height="40" rx="8" fill="#2563EB"/>
+  <text x="100" y="366" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">Save Invoice</text>
+</svg>

@@ -1,8 +1,25 @@
 <nav class="main-nav">
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+    </button>
     <ul class="nav-list">
         <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
         <li><a href="/blog">Blog</a></li>
         <li><a href="/privacy-policy">Privacy</a></li>
         <li><a href="/terms-of-service">Terms</a></li>
     </ul>
 </nav>
+<script defer>
+document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.querySelector('.nav-toggle');
+    if (navToggle) {
+        navToggle.addEventListener('click', function() {
+            const nav = document.querySelector('.main-nav');
+            const expanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', !expanded);
+            nav.classList.toggle('nav-open');
+        });
+    }
+});
+</script>

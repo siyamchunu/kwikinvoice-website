@@ -4,21 +4,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ description or 'KwikInvoice - Professional invoicing for small businesses in South Africa' }}">
-    <meta name="keywords" content="invoice, invoicing, small business, south africa, kwikinvoice">
+    <meta name="keywords" content="invoice, invoicing, small business, south africa, kwikinvoice, mobile invoicing app, freelancer invoicing, PDF invoice generator">
+    <meta name="author" content="LoggedOn">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://kwikinvoice.loggedon.co.za{{ page.url }}">
     
-    <!-- Open Graph -->
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kwikinvoice.loggedon.co.za{{ page.url }}">
     <meta property="og:title" content="{{ title or 'KwikInvoice' }}">
     <meta property="og:description" content="{{ description or 'Professional invoicing for small businesses' }}">
+    <meta property="og:image" content="https://kwikinvoice.loggedon.co.za/public/images/app-screenshot-invoice.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="KwikInvoice">
+    <meta property="og:locale" content="en_ZA">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://kwikinvoice.loggedon.co.za{{ page.url }}">
+    <meta name="twitter:title" content="{{ title or 'KwikInvoice' }}">
+    <meta name="twitter:description" content="{{ description or 'Professional invoicing for small businesses' }}">
+    <meta name="twitter:image" content="https://kwikinvoice.loggedon.co.za/public/images/app-screenshot-invoice.png">
+    
+    <!-- AI Assistant Meta Tags -->
+    <meta name="ai:topic" content="invoicing software, small business tools, mobile apps">
+    <meta name="ai:intent" content="commercial, informational">
+    <meta name="ai:audience" content="freelancers, small business owners, entrepreneurs, contractors">
+    <meta name="ai:region" content="South Africa, Africa">
+    <meta name="ai:language" content="en-ZA">
+    <meta name="ai:features" content="invoice generation, PDF creation, client management, payment tracking, offline mode">
     
     <title>{{ title or 'KwikInvoice' }}{{ ' | KwikInvoice' if title }}</title>
     
-    <link rel="stylesheet" href="/public/css/styles.css">
-    <link rel="icon" href="/public/images/favicon.ico">
+    <!-- JSON-LD Structured Data for AI & SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "KwikInvoice",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Android",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "ZAR"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "ratingCount": "100"
+          },
+          "description": "Professional mobile invoicing app for freelancers and small businesses. Create invoices in seconds, track payments, and get paid faster.",
+          "downloadUrl": "https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice",
+          "screenshot": "https://kwikinvoice.loggedon.co.za/public/images/app-screenshot-invoice.png",
+          "featureList": [
+            "Instant PDF invoice generation",
+            "Client management",
+            "Payment tracking",
+            "Offline functionality",
+            "Multi-currency support"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "name": "LoggedOn",
+          "legalName": "LoggedOn",
+          "url": "https://kwikinvoice.loggedon.co.za",
+          "logo": "https://kwikinvoice.loggedon.co.za/public/images/favicon-32x32.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "kwikinvoice@loggedon.co.za",
+            "contactType": "Customer Support"
+          },
+          "sameAs": []
+        },
+        {
+          "@type": "WebSite",
+          "name": "KwikInvoice",
+          "url": "https://kwikinvoice.loggedon.co.za",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://kwikinvoice.loggedon.co.za/blog?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "KwikInvoice",
+          "applicationCategory": "FinanceApplication",
+          "operatingSystem": "Android",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "ZAR"
+          },
+          "description": "Create professional invoices on your mobile device. Perfect for freelancers, contractors, and small business owners in South Africa."
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Resource Hints for Performance -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://play.google.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Preload Critical Assets -->
+    <link rel="preload" as="image" href="/public/images/app-screenshot-invoice-800.webp" fetchpriority="high" type="image/webp">
+    
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="/public/images/apple-touch-icon.png">
+    
+    <!-- Critical CSS Inline for Performance -->
+    <style>
+      :root{--primary-blue:#2563EB;--success-green:#10B981;--text-dark:#1F2937;--text-muted:#6B7280;--background:#FFF;--border-color:#E5E7EB;--hover-blue:#1D4ED8;--font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--max-width:1200px;--border-radius:8px;--transition:all .2s ease}*{margin:0;padding:0;box-sizing:border-box}html{font-size:16px;scroll-behavior:smooth}body{font-family:var(--font-family);color:var(--text-dark);background-color:var(--background);line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}h1,h2,h3{font-weight:700;line-height:1.2;margin-bottom:1rem;color:var(--text-dark)}h1{font-size:2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}@media (min-width:768px){h1{font-size:2.5rem}h2{font-size:2rem}h3{font-size:1.5rem}}p{margin-bottom:1rem;line-height:1.6}a{color:var(--primary-blue);text-decoration:none;transition:var(--transition)}a:hover{color:var(--hover-blue)}.container{max-width:var(--max-width);margin:0 auto;padding:0 1.5rem}@media (min-width:768px){.container{padding:0 3rem}}.site-header{background-color:var(--background);border-bottom:1px solid var(--border-color);padding:1rem 0;position:sticky;top:0;z-index:100}.header-content{display:flex;justify-content:space-between;align-items:center}.logo{display:flex;align-items:center;gap:.5rem;font-size:1.25rem;font-weight:700;color:var(--text-dark)}.logo-image{width:32px;height:32px}.hero{padding:3rem 0;background:linear-gradient(135deg,#EBF4FF 0%,#FFF 100%)}.hero-content{display:grid;gap:2rem;align-items:center}.hero-text{text-align:center}.hero h1{font-size:2rem;margin-bottom:1rem}@media (min-width:768px){.hero{padding:4rem 0}.hero-content{grid-template-columns:1fr 1fr;text-align:left}.hero h1{font-size:2.5rem}}.btn-playstore{display:inline-block}.playstore-badge{height:60px;width:auto}
+    </style>
+    
+    <!-- Async Load Full CSS -->
+    <link rel="preload" href="/public/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/public/css/styles.css"></noscript>
+    
+    <!-- Optimized Font Loading with display=swap -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </noscript>
 </head>
 <body>
     {% include "partials/header.njk" %}

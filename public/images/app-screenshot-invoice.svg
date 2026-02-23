@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 520" width="260" height="520">
+  <rect width="260" height="520" rx="24" fill="#fff"/>
+  <rect x="10" y="40" width="240" height="60" rx="8" fill="#2563EB"/>
+  <text x="130" y="78" font-family="Arial" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">KwikInvoice</text>
+  <rect x="20" y="120" width="220" height="40" rx="6" fill="#F3F4F6"/>
+  <text x="40" y="145" font-family="Arial" font-size="14" fill="#6B7280">Client: Acme Corp</text>
+  <rect x="20" y="175" width="220" height="40" rx="6" fill="#F3F4F6"/>
+  <text x="40" y="200" font-family="Arial" font-size="14" fill="#6B7280">Invoice #: INV-001</text>
+  <rect x="20" y="230" width="220" height="180" rx="6" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <text x="40" y="260" font-family="Arial" font-size="12" fill="#1F2937" font-weight="bold">Line Items</text>
+  <line x1="30" y1="275" x2="230" y2="275" stroke="#E5E7EB"/>
+  <text x="40" y="300" font-family="Arial" font-size="11" fill="#6B7280">Web Design</text>
+  <text x="200" y="300" font-family="Arial" font-size="11" fill="#1F2937" text-anchor="end">$500</text>
+  <text x="40" y="330" font-family="Arial" font-size="11" fill="#6B7280">Logo Design</text>
+  <text x="200" y="330" font-family="Arial" font-size="11" fill="#1F2937" text-anchor="end">$200</text>
+  <line x1="30" y1="360" x2="230" y2="360" stroke="#E5E7EB"/>
+  <text x="40" y="390" font-family="Arial" font-size="14" fill="#1F2937" font-weight="bold">Total:</text>
+  <text x="200" y="390" font-family="Arial" font-size="14" fill="#2563EB" text-anchor="end" font-weight="bold">$700</text>
+  <rect x="20" y="440" width="220" height="50" rx="8" fill="#2563EB"/>
+  <text x="130" y="472" font-family="Arial" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">Generate PDF</text>
+</svg>

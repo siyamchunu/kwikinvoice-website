@@ -6,13 +6,27 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "clean": "rm -rf _site"
+    "clean": "rm -rf _site",
+    "lighthouse": "lighthouse http://localhost:8080 --output html --output-path ./reports/lighthouse-report.html --chrome-flags='--headless'",
+    "lighthouse:ci": "lhci autorun",
+    "perf:budget": "lighthouse http://localhost:8080 --budget-path=budget.json --output json --output-path ./reports/budget-report.json",
+    "perf:all": "npm run build && npm-run-all --parallel start lighthouse"
   },
-  "keywords": ["kwikinvoice", "legal", "privacy", "terms"],
+  "keywords": [
+    "kwikinvoice",
+    "legal",
+    "privacy",
+    "terms"
+  ],
   "author": "Siya Mchunu <macingwan@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
-    "markdown-it": "^14.1.1"
+    "cssnano": "^7.1.2",
+    "markdown-it": "^14.1.1",
+    "postcss-cli": "^11.0.1"
+  },
+  "dependencies": {
+    "lighthouse": "^12.8.2"
   }
 }

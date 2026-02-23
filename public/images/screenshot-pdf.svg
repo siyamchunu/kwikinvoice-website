@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400" width="200" height="400">
+  <rect width="200" height="400" rx="16" fill="#fff"/>
+  <rect x="8" y="30" width="184" height="45" rx="6" fill="#2563EB"/>
+  <text x="100" y="58" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">PDF Preview</text>
+  <rect x="15" y="90" width="170" height="250" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="100" y="115" font-family="Arial" font-size="12" fill="#2563EB" text-anchor="middle" font-weight="bold">INVOICE</text>
+  <text x="100" y="135" font-family="Arial" font-size="9" fill="#6B7280" text-anchor="middle">INV-2026-001</text>
+  <line x1="25" y1="150" x2="175" y2="150" stroke="#E5E7EB"/>
+  <text x="30" y="170" font-family="Arial" font-size="8" fill="#6B7280">Bill To:</text>
+  <text x="30" y="185" font-family="Arial" font-size="9" fill="#1F2937">Acme Corporation</text>
+  <text x="30" y="198" font-family="Arial" font-size="8" fill="#6B7280">123 Business St</text>
+  <rect x="25" y="215" width="150" height="60" rx="2" fill="#F9FAFB"/>
+  <text x="35" y="232" font-family="Arial" font-size="8" fill="#1F2937" font-weight="bold">Description</text>
+  <text x="145" y="232" font-family="Arial" font-size="8" fill="#1F2937" text-anchor="end" font-weight="bold">Amount</text>
+  <text x="35" y="250" font-family="Arial" font-size="7" fill="#6B7280">Web Development</text>
+  <text x="145" y="250" font-family="Arial" font-size="7" fill="#1F2937" text-anchor="end">$1,500</text>
+  <text x="35" y="265" font-family="Arial" font-size="7" fill="#6B7280">Maintenance</text>
+  <text x="145" y="265" font-family="Arial" font-size="7" fill="#1F2937" text-anchor="end">$200</text>
+  <line x1="25" y1="290" x2="175" y2="290" stroke="#E5E7EB"/>
+  <text x="100" y="310" font-family="Arial" font-size="11" fill="#1F2937" text-anchor="middle" font-weight="bold">Total: $1,700</text>
+  <rect x="15" y="350" width="80" height="35" rx="6" fill="#F3F4F6"/>
+  <text x="55" y="372" font-family="Arial" font-size="11" fill="#1F2937" text-anchor="middle">Save</text>
+  <rect x="105" y="350" width="80" height="35" rx="6" fill="#10B981"/>
+  <text x="145" y="372" font-family="Arial" font-size="11" fill="#fff" text-anchor="middle">Share</text>
+</svg>
