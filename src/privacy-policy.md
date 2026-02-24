@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
-title: Privacy Policy
-description: KwikInvoice Privacy Policy - How we protect your data
+title: Privacy Policy | KwikInvoice
+description: How KwikInvoice protects your data. Learn about our privacy practices, data collection, and your rights. POPIA compliant.
 ---
 
 

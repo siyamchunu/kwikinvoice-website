@@ -1,0 +1,12 @@
+# robots.txt for KwikInvoice Website
+# Allow all search engines to index all content
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://kwikinvoice.loggedon.co.za/sitemap.xml
+
+# Disallow paths (none for now, allow everything)
+# Disallow: /admin/
+# Disallow: /api/
