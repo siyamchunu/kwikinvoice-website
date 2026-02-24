@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
-title: Pricing
-description: Simple, transparent pricing for KwikInvoice. Start free with 5 invoices per month, or upgrade to Pro for unlimited invoicing and premium features.
+title: "Pricing - KwikInvoice | Free & Pro Plans"
+description: "Simple pricing: Start free with 5 invoices/month. Upgrade to Pro for unlimited invoices. No credit card required. Try KwikInvoice today."
 ---
 
 <section class="pricing">

@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
-title: Home
-description: KwikInvoice - Professional mobile invoicing app for freelancers and small businesses in South Africa. Create invoices in seconds, track payments, and get paid faster. Available on Android.
+title: KwikInvoice - Free Mobile Invoice App for Small Business
+description: Create professional invoices in seconds. Free mobile invoicing app for freelancers & small businesses. Works offline. Download on Android.
 ---
 
 <!-- FAQ Schema for AI Assistants -->

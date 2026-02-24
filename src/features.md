@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
-title: Features
-description: Discover the features that make KwikInvoice a fast, simple mobile invoicing solution - instant PDF generation, offline functionality, and secure local storage.
+title: Features - Fast, Offline Invoice App | KwikInvoice
+description: Lightning-fast PDF generation, offline invoicing, client management & payment tracking. Everything you need in a mobile invoice app.
 ---
 
 <article itemscope itemtype="https://schema.org/WebPage">

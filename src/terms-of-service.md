@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
-title: Terms of Service
-description: KwikInvoice Terms of Service
+title: Terms of Service | KwikInvoice
+description: KwikInvoice terms of use. Understand your rights and responsibilities when using our mobile invoicing app.
 ---
 
 
