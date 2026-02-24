@@ -61,9 +61,6 @@ description: Simple, transparent pricing for KwikInvoice. Start free with 5 invo
                 <ul class="features-list">
                     <li><span class="checkmark">✓</span> <strong>Unlimited</strong> invoices</li>
                     <li><span class="checkmark">✓</span> Priority email support</li>
-                    <li><span class="checkmark">✓</span> Custom branding</li>
-                    <li><span class="checkmark">✓</span> Advanced analytics</li>
-                    <li><span class="checkmark">✓</span> Early access to features</li>
                 </ul>
                 <a href="https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice" class="btn btn-primary btn-full" target="_blank" rel="noopener">
                     <span class="cta-monthly">Start 7-Day Free Trial</span>
