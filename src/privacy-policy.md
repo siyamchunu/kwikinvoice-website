@@ -72,7 +72,7 @@ When you use KwikInvoice, you may provide the following information:
 - **Payment Information:** We do not collect or store credit card information or payment details. All payments are processed securely through Google Play Billing
 - **Personal Identification Documents:** We do not collect ID numbers, passports, or other government-issued identification
 - **Location Data:** We do not track your physical location
-- **Browsing History:** We do not track your web browsing or other app usage outside of InvoiceFlow
+- **Browsing History:** We do not track your web browsing or other app usage outside of KwikInvoice
 - **Biometric Data:** We do not collect fingerprints, facial recognition data, or other biometric information
 
 ---
@@ -148,10 +148,25 @@ We do not sell, rent, or trade your personal information to third parties for ma
 - **Data Shared:** Basic device and app version information (in development mode only)
 - **Privacy Policy:** [Expo Privacy Policy](https://expo.dev/privacy)
 
-**3. Analytics (Future - Currently Local Only)**
-- **Current Status:** Analytics are stored locally and NOT sent to external services
-- **Future Plans:** We may integrate third-party analytics (e.g., Firebase, Mixpanel) in future versions
-- **Notification:** We will update this Privacy Policy and notify you before implementing external analytics
+**3. Firebase Analytics (Active)**
+- **Purpose:** Track app usage and feature adoption for product improvement
+- **Data Shared:** 
+  - Event names (e.g., "invoice_created", "pdf_generated")
+  - Anonymized device IDs
+  - App version and OS version
+  - Event properties (e.g., invoice count, feature usage)
+- **No PII Shared:** Invoice content, client names, and business data NOT transmitted
+- **Privacy Policy:** [Firebase Privacy Policy](https://firebase.google.com/support/privacy)
+- **Opt-Out:** Currently not available in v1.0.0 (planned for v1.1.0)
+
+**4. RevenueCat (Subscription Management)**
+- **Purpose:** Manage subscription status and entitlements
+- **Data Shared:** 
+  - Subscription status (Free/Pro)
+  - Purchase events
+  - Device identifiers (for entitlement sync)
+- **No Financial Data:** RevenueCat does not see payment details (handled by Google Play)
+- **Privacy Policy:** [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
 
 ### Data Sharing Scenarios
 
@@ -190,7 +205,7 @@ We may share your information only in the following limited circumstances:
 - You can share invoices via email, WhatsApp, or save to device storage
 
 **4. Revoke Permissions**
-- **Contacts Access:** Revoke in Android Settings → Apps → InvoiceFlow → Permissions
+- **Contacts Access:** Revoke in Android Settings → Apps → KwikInvoice → Permissions
 - **Storage Access:** Revoke in Android Settings (note: this will prevent PDF generation)
 
 ### Subscription and Billing
@@ -207,7 +222,7 @@ We may share your information only in the following limited circumstances:
 
 ## Children's Privacy
 
-InvoiceFlow is not intended for use by individuals under the age of 18. We do not knowingly collect personal information from children under 18.
+KwikInvoice is not intended for use by individuals under the age of 18. We do not knowingly collect personal information from children under 18.
 
 If you are a parent or guardian and believe your child has provided us with personal information, please contact us at kwikInvoice@loggedOn.co.za, and we will delete such information.
 
@@ -215,7 +230,7 @@ If you are a parent or guardian and believe your child has provided us with pers
 
 ## International Users
 
-InvoiceFlow is designed primarily for users in South Africa, but may be used internationally.
+KwikInvoice is designed primarily for users in South Africa, but may be used internationally.
 
 **Data Transfer:**
 - Your data is stored locally on your device
@@ -229,7 +244,7 @@ If you are located in the European Economic Area (EEA), you have additional righ
 - Right to data portability
 - Right to object to processing
 
-To exercise these rights, contact us at support@invoiceflow.app.
+To exercise these rights, contact us at kwikInvoice@loggedOn.co.za.
 
 ---
 

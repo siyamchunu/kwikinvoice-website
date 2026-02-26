@@ -256,7 +256,7 @@ Some jurisdictions do not allow limitation of liability for personal injury or f
 
 You agree to indemnify, defend, and hold us harmless from any claims, damages, losses, or expenses (including legal fees) arising from:
 
-- Your use or misuse of InvoiceFlow
+- Your use or misuse of KwikInvoice
 - Your violation of these Terms
 - Your violation of applicable laws or regulations
 - Your invoices or business practices
@@ -277,6 +277,16 @@ KwikInvoice integrates with third-party services:
 ### Expo Framework
 - App built using Expo development platform
 - Subject to Expo's Terms of Service
+
+### RevenueCat (Subscription Platform)
+- Subscription management and entitlement verification
+- Subject to RevenueCat's Terms of Service
+- Privacy Policy: https://www.revenuecat.com/privacy
+
+### Firebase Analytics
+- Usage analytics to improve app experience
+- Subject to Google Firebase Terms of Service
+- Privacy Policy: https://firebase.google.com/support/privacy
 
 ### Sharing Services
 - When you share invoices, you use your device's native sharing (WhatsApp, email, etc.)
@@ -361,7 +371,7 @@ Nothing prevents either party from seeking injunctive relief in court for intell
 ## 16. General Provisions
 
 ### Entire Agreement
-These Terms, together with our Privacy Policy, constitute the entire agreement between you and us regarding InvoiceFlow.
+These Terms, together with our Privacy Policy, constitute the entire agreement between you and us regarding KwikInvoice.
 
 ### Severability
 If any provision is found invalid or unenforceable, the remaining provisions continue in full effect.
@@ -501,7 +511,7 @@ This is a plain-language summary for your convenience. The full Terms above are 
 
 **What you get:**
 - Free: 5 invoices/month, all features
-- Pro (future): Unlimited invoices, R99/month
+- Pro (future): Unlimited invoices, R79/month or R699/year
 
 **What you should know:**
 - All data stored on your device (we can't access it)
