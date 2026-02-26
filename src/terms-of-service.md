@@ -98,10 +98,10 @@ You are responsible for:
 
 **When Live:**
 - Billing through Google Play Store only
-- Subscription price: R99.00/month (subject to change)
-- Billed monthly to your Google Play account
+- Subscription price: R79.00/month OR R699.00/year (subject to change)
+- Billed monthly or annually to your Google Play account
 - Automatic renewal unless cancelled
-- Google takes 15% transaction fee (you pay R99, we receive ~R84)
+- Google takes 15% transaction fee (monthly: you pay R79, we receive ~R67; annual: you pay R699, we receive ~R594)
 
 ### Payment Terms
 - All payments processed through Google Play Billing
@@ -381,6 +381,8 @@ These Terms are written in English. Translations (if any) are for convenience on
 
 ### Contact for Legal Notices
 Legal notices must be sent to: kwikInvoice@loggedOn.co.za
+
+**Business Structure:** Virtual business (no physical office location)
 
 ---
 

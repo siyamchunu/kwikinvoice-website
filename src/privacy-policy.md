@@ -255,8 +255,34 @@ If you have questions, concerns, or requests regarding this Privacy Policy or yo
 
 **Email:** kwikInvoice@loggedOn.co.za  
 **Developer:** KwikInvoice Development Team  
+**Information Officer (POPIA):** a291kitchen@gmail.com  
+**Business Structure:** Virtual business (no physical office location)
 
 **Response Time:** We aim to respond to all inquiries within 7 business days.
+
+---
+
+## POPIA Compliance (South Africa)
+
+KwikInvoice complies with the Protection of Personal Information Act (POPIA), Act 4 of 2013.
+
+**Information Officer:**
+- Email: a291kitchen@gmail.com
+- Responsible for processing requests related to personal information under POPIA
+
+**Your Rights Under POPIA:**
+- Right to access your personal information
+- Right to have your personal information corrected or deleted
+- Right to object to the processing of your personal information
+- Right to lodge a complaint with the Information Regulator of South Africa
+
+**How to Exercise Your POPIA Rights:**
+Contact our Information Officer at a291kitchen@gmail.com with your request. We will respond within 30 days as required by POPIA.
+
+**Information Regulator South Africa:**
+- Website: https://inforegulator.org.za
+- Email: inforeg@justice.gov.za
+- Complaints Hotline: 012 406 4818
 
 ---
 
