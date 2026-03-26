@@ -3,20 +3,77 @@
    Based on Fiona's Wireframe Design
    ======================================== */
 
-/* CSS Variables */
+/* ─────────────────────────────────────────────────────── */
+/* KwikInvoice Colour System v2 — Electric Mzansi ⚡       */
+/* Source: docs/BRAND-COLOUR-SYSTEM-v2.md                  */
+/* ─────────────────────────────────────────────────────── */
+
 :root {
-  --primary-blue: #2563EB;
-  --success-green: #10B981;
-  --text-dark: #1F2937;
-  --text-muted: #6B7280;
-  --background: #FFFFFF;
-  --border-color: #E5E7EB;
-  --hover-blue: #1D4ED8;
-  
+  /* Brand — The Kwik Six */
+  --color-brand-blue:       #2563EB;
+  --color-brand-green:      #10B981;
+  --color-brand-amber:      #F59E0B;
+  --color-brand-night:      #0F172A;
+  --color-brand-white:      #FFFFFF;
+  --color-brand-charcoal:   #1F2937;
+
+  /* Semantic — Light Mode */
+  --color-primary:          #2563EB;
+  --color-primary-hover:    #1D4ED8;
+  --color-primary-dark:     #60A5FA;
+  --color-energy:           #F59E0B;
+  --color-energy-hover:     #D97706;
+  --color-success:          #10B981;
+  --color-success-text:     #047857;
+  --color-error:            #EF4444;
+  --color-warning:          #F59E0B;
+  --color-glow:             #3B82F6;
+
+  /* Surfaces — Light Mode */
+  --color-bg:               #FFFFFF;
+  --color-surface:          #F9FAFB;
+  --color-surface-elevated: #F3F4F6;
+  --color-border:           #E5E7EB;
+  --color-border-strong:    #6B7280;
+
+  /* Text — Light Mode */
+  --color-text-primary:     #1F2937;
+  --color-text-secondary:   #6B7280;
+  --color-text-disabled:    #9CA3AF;
+  --color-text-inverse:     #FFFFFF;
+
+  /* Non-colour design tokens */
   --font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --max-width: 1200px;
   --border-radius: 8px;
   --transition: all 0.2s ease;
+}
+
+[data-theme="dark"] {
+  /* Semantic — Dark Mode Overrides */
+  --color-primary:          #60A5FA;
+  --color-primary-hover:    #93C5FD;
+  --color-primary-dark:     #2563EB;
+  --color-energy:           #F59E0B;
+  --color-energy-hover:     #FBBF24;
+  --color-success:          #34D399;
+  --color-success-text:     #34D399;
+  --color-error:            #EF4444;
+  --color-warning:          #F59E0B;
+  --color-glow:             #3B82F6;
+
+  /* Surfaces — Dark Mode */
+  --color-bg:               #0F172A;
+  --color-surface:          #1E293B;
+  --color-surface-elevated: #334155;
+  --color-border:           #334155;
+  --color-border-strong:    #94A3B8;
+
+  /* Text — Dark Mode */
+  --color-text-primary:     #FFFFFF;
+  --color-text-secondary:   #94A3B8;
+  --color-text-disabled:    #475569;
+  --color-text-inverse:     #1F2937;
 }
 
 /* Reset & Base Styles */
@@ -33,8 +90,8 @@ html {
 
 body {
   font-family: var(--font-family);
-  color: var(--text-dark);
-  background-color: var(--background);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -45,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem;
-  color: var(--text-dark);
+  color: var(--color-text-primary);
 }
 
 h1 { font-size: 2rem; }
@@ -65,13 +122,13 @@ p {
 }
 
 a {
-  color: var(--primary-blue);
+  color: var(--color-primary);
   text-decoration: none;
   transition: var(--transition);
 }
 
 a:hover {
-  color: var(--hover-blue);
+  color: var(--color-primary-hover);
 }
 
 /* Container */
@@ -95,8 +152,8 @@ a:hover {
 
 /* Header */
 .site-header {
-  background-color: var(--background);
-  border-bottom: 1px solid var(--border-color);
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
   padding: 1rem 0;
   position: sticky;
   top: 0;
@@ -115,11 +172,11 @@ a:hover {
   gap: 0.5rem;
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--text-dark);
+  color: var(--color-text-primary);
 }
 
 .logo:hover {
-  color: var(--primary-blue);
+  color: var(--color-primary);
 }
 
 .logo-image {
@@ -140,13 +197,13 @@ a:hover {
 }
 
 .main-nav a {
-  color: var(--text-dark);
+  color: var(--color-text-primary);
   font-weight: 500;
   padding: 0.5rem 0;
 }
 
 .main-nav a:hover {
-  color: var(--primary-blue);
+  color: var(--color-primary);
 }
 
 /* Hamburger Menu */
@@ -163,7 +220,7 @@ a:hover {
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--text-dark);
+  background: var(--color-text-primary);
   position: relative;
   transition: var(--transition);
 }
@@ -174,7 +231,7 @@ a:hover {
   position: absolute;
   width: 24px;
   height: 2px;
-  background: var(--text-dark);
+  background: var(--color-text-primary);
   left: 0;
   transition: var(--transition);
 }
@@ -213,7 +270,7 @@ a:hover {
     width: 70%;
     max-width: 280px;
     height: 100vh;
-    background: var(--background);
+    background: var(--color-bg);
     flex-direction: column;
     padding: 5rem 2rem 2rem;
     gap: 1.5rem;
@@ -255,7 +312,7 @@ a:hover {
 
 .hero-subtitle {
   font-size: 1.25rem;
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
   margin-bottom: 2rem;
   max-width: 600px;
   margin-left: auto;
@@ -360,7 +417,7 @@ a:hover {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.9rem;
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
   font-weight: 500;
 }
 
@@ -404,7 +461,7 @@ a:hover {
 
 .section-subtitle {
   text-align: center;
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
   font-size: 1.125rem;
   margin-top: -1.5rem;
   margin-bottom: 3rem;
@@ -432,7 +489,7 @@ a:hover {
   text-align: center;
   padding: 2rem 1.5rem;
   border-radius: var(--border-radius);
-  background: #F9FAFB;
+  background: var(--color-surface);
   transition: var(--transition);
 }
 
@@ -453,7 +510,7 @@ a:hover {
 
 .feature-card p {
   font-size: 0.9375rem;
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
   line-height: 1.6;
   margin-bottom: 0;
 }
@@ -497,7 +554,7 @@ a:hover {
 .screenshot-caption {
   margin-top: 1rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: var(--color-text-primary);
   font-size: 0.9375rem;
 }
 
@@ -509,7 +566,7 @@ a:hover {
 
 .cta-box {
   text-align: center;
-  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--hover-blue) 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
   padding: 4rem 2rem;
   border-radius: 16px;
   color: white;
@@ -533,11 +590,11 @@ a:hover {
 
 .cta-box .btn-primary {
   background: white;
-  color: var(--primary-blue);
+  color: var(--color-primary);
 }
 
 .cta-box .btn-primary:hover {
-  background: #F3F4F6;
+  background: var(--color-surface-elevated);
   transform: translateY(-2px);
 }
 
@@ -561,24 +618,24 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: var(--primary-blue);
+  background-color: var(--color-primary);
   color: white;
 }
 
 .btn-primary:hover {
-  background-color: var(--hover-blue);
+  background-color: var(--color-primary-hover);
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
 
 .btn-secondary {
   background-color: white;
-  color: var(--primary-blue);
-  border: 2px solid var(--primary-blue);
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
 }
 
 .btn-secondary:hover {
-  background-color: var(--primary-blue);
+  background-color: var(--color-primary);
   color: white;
 }
 
@@ -615,7 +672,7 @@ section h2 {
 /* Cards */
 .card {
   background: white;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
   padding: 2rem;
   transition: var(--transition);
@@ -636,12 +693,12 @@ section h2 {
 }
 
 .card p {
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
   margin-bottom: 1rem;
 }
 
 .card-link {
-  color: var(--primary-blue);
+  color: var(--color-primary);
   font-weight: 600;
 }
 
@@ -665,7 +722,7 @@ section h2 {
 
 .post-card {
   background: white;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
   padding: 1.5rem;
   transition: var(--transition);
@@ -687,7 +744,7 @@ section h2 {
 
 .post-card time {
   font-size: 0.875rem;
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
 }
 
 .post-category {
@@ -710,12 +767,12 @@ section h2 {
 
 .category-tips {
   background-color: #FEF3C7;
-  color: #D97706;
+  color: var(--color-energy-hover);
 }
 
 .category-features {
   background-color: #D1FAE5;
-  color: var(--success-green);
+  color: var(--color-success);
 }
 
 .post-card h3 {
@@ -724,21 +781,21 @@ section h2 {
 }
 
 .post-card h3 a {
-  color: var(--text-dark);
+  color: var(--color-text-primary);
 }
 
 .post-card h3 a:hover {
-  color: var(--primary-blue);
+  color: var(--color-primary);
 }
 
 .post-card p {
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
   font-size: 0.9375rem;
   margin-bottom: 1rem;
 }
 
 .read-more {
-  color: var(--primary-blue);
+  color: var(--color-primary);
   font-weight: 600;
   font-size: 0.9375rem;
 }
@@ -783,11 +840,11 @@ section h2 {
 
 .content strong {
   font-weight: 600;
-  color: var(--text-dark);
+  color: var(--color-text-primary);
 }
 
 .content code {
-  background-color: #F3F4F6;
+  background-color: var(--color-surface-elevated);
   padding: 0.125rem 0.375rem;
   border-radius: 4px;
   font-family: 'Courier New', monospace;
@@ -805,19 +862,19 @@ section h2 {
 
 .back-link {
   display: inline-block;
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
   margin-bottom: 1rem;
 }
 
 .back-link:hover {
-  color: var(--primary-blue);
+  color: var(--color-primary);
 }
 
 .post-meta {
   display: flex;
   gap: 1rem;
   align-items: center;
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
   font-size: 0.9375rem;
   margin-top: 0.5rem;
 }
@@ -854,7 +911,7 @@ section h2 {
 
 .blog-item {
   padding: 2rem 0;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .blog-item:last-child {
@@ -870,7 +927,7 @@ section h2 {
 }
 
 .blog-item time {
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
   font-size: 0.9375rem;
 }
 
@@ -881,21 +938,21 @@ section h2 {
 }
 
 .blog-item h2 a {
-  color: var(--text-dark);
+  color: var(--color-text-primary);
 }
 
 .blog-item h2 a:hover {
-  color: var(--primary-blue);
+  color: var(--color-primary);
 }
 
 .excerpt {
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
   margin-bottom: 1rem;
 }
 
 /* Contact Section */
 .contact {
-  background-color: #F9FAFB;
+  background-color: var(--color-surface);
   text-align: center;
 }
 
@@ -905,7 +962,7 @@ section h2 {
 
 /* Footer */
 .site-footer {
-  background-color: var(--text-dark);
+  background-color: var(--color-text-primary);
   color: white;
   padding: 3rem 0 1.5rem;
   margin-top: 4rem;
@@ -992,7 +1049,7 @@ section h2 {
 
 /* Accessibility */
 :focus-visible {
-  outline: 2px solid var(--primary-blue);
+  outline: 2px solid var(--color-primary);
   outline-offset: 2px;
 }
 
@@ -1023,7 +1080,7 @@ section h2 {
 
 .pricing {
   padding: 80px 0;
-  background: linear-gradient(to bottom, #F9FAFB 0%, #FFFFFF 100%);
+  background: linear-gradient(to bottom, var(--color-surface) 0%, var(--color-bg) 100%);
 }
 
 .pricing-header {
@@ -1035,14 +1092,14 @@ section h2 {
   font-size: 36px;
   line-height: 42px;
   font-weight: 700;
-  color: var(--text-dark);
+  color: var(--color-text-primary);
   margin-bottom: 16px;
 }
 
 .pricing-header .section-subtitle {
   font-size: 18px;
   line-height: 28px;
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
 }
 
 /* Pricing Toggle */
@@ -1057,12 +1114,12 @@ section h2 {
 .toggle-label {
   font-size: 16px;
   font-weight: 500;
-  color: var(--text-dark);
+  color: var(--color-text-primary);
 }
 
 .save-badge {
   display: inline-block;
-  background: #F59E0B;
+  background: var(--color-energy);
   color: white;
   padding: 2px 8px;
   border-radius: 4px;
@@ -1109,7 +1166,7 @@ section h2 {
 }
 
 .pricing-toggle input:checked + .toggle-slider {
-  background-color: var(--primary-blue);
+  background-color: var(--color-primary);
 }
 
 .pricing-toggle input:checked + .toggle-slider:before {
@@ -1148,13 +1205,13 @@ section h2 {
 }
 
 .pricing-card-free {
-  background: #F9FAFB;
-  border: 2px solid var(--border-color);
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .pricing-card-pro {
-  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
   color: white;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   transform: scale(1);
@@ -1174,14 +1231,14 @@ section h2 {
 }
 
 .pricing-card-pro .checkmark {
-  color: #10B981;
+  color: var(--color-success);
 }
 
 .best-value-badge {
   position: absolute;
   top: -12px;
   right: 24px;
-  background: #F59E0B;
+  background: var(--color-energy);
   color: white;
   padding: 6px 16px;
   border-radius: 20px;
@@ -1223,7 +1280,7 @@ section h2 {
 .tier-description {
   font-size: 14px;
   line-height: 20px;
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
   margin-bottom: 0;
 }
 
@@ -1255,7 +1312,7 @@ section h2 {
 }
 
 .checkmark {
-  color: #10B981;
+  color: var(--color-success);
   font-weight: 700;
   font-size: 18px;
   flex-shrink: 0;
@@ -1277,7 +1334,7 @@ section h2 {
 .card-note {
   text-align: center;
   font-size: 14px;
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
   margin-top: 16px;
 }
 
@@ -1291,11 +1348,11 @@ section h2 {
   max-width: 600px;
   margin: 0 auto;
   padding-top: 24px;
-  border-top: 1px solid var(--border-color);
+  border-top: 1px solid var(--color-border);
 }
 
 .pricing-trust p {
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
   font-size: 14px;
   line-height: 24px;
   margin: 4px 0;
@@ -1335,14 +1392,14 @@ section h2 {
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
-  color: var(--text-dark);
+  color: var(--color-text-primary);
   margin-bottom: 12px;
 }
 
 .faq-item p {
   font-size: 16px;
   line-height: 24px;
-  color: var(--text-muted);
+  color: var(--color-text-secondary);
 }
 
 /* Mobile Responsive */
