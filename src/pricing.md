@@ -59,7 +59,12 @@ description: "Simple pricing: Start free with 5 invoices/month. Upgrade to Pro f
                     <p class="annual-equivalent" style="display: none;">Only R58/month</p>
                 </div>
                 <ul class="features-list">
-                    <li><span class="checkmark">✓</span> <strong>Unlimited</strong> invoices</li>
+                    <li><span class="checkmark">✓</span> <strong>Unlimited</strong> invoices per month</li>
+                    <li><span class="checkmark">✓</span> Professional PDF invoices</li>
+                    <li><span class="checkmark">✓</span> Invoice status tracking (Paid/Unpaid)</li>
+                    <li><span class="checkmark">✓</span> Unlimited client management</li>
+                    <li><span class="checkmark">✓</span> Works 100% offline</li>
+                    <li><span class="checkmark">✓</span> Fast PDF generation (&lt;200ms)</li>
                     <li><span class="checkmark">✓</span> Priority email support</li>
                 </ul>
                 <a href="https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice" class="btn btn-primary btn-full" target="_blank" rel="noopener">
