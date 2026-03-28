@@ -262,7 +262,12 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
                     <p class="annual-equivalent" style="display: none;">Only R58/month</p>
                 </div>
                 <ul class="features-list">
-                    <li><span class="checkmark">✓</span> <strong>Unlimited</strong> invoices</li>
+                    <li><span class="checkmark">✓</span> <strong>Unlimited</strong> invoices per month</li>
+                    <li><span class="checkmark">✓</span> Professional PDF invoices</li>
+                    <li><span class="checkmark">✓</span> Invoice status tracking (Paid/Unpaid)</li>
+                    <li><span class="checkmark">✓</span> Unlimited client management</li>
+                    <li><span class="checkmark">✓</span> Works 100% offline</li>
+                    <li><span class="checkmark">✓</span> Fast PDF generation (&lt;200ms)</li>
                     <li><span class="checkmark">✓</span> Priority email support</li>
                     <li><span class="checkmark">✓</span> Custom branding</li>
                     <li><span class="checkmark">✓</span> Advanced analytics</li>
