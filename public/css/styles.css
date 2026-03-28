@@ -109,6 +109,7 @@
 html {
   font-size: 16px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -118,6 +119,7 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 /* Typography */
@@ -353,6 +355,7 @@ a:hover {
 .hero-redesign {
   padding: 3rem 0 4rem;
   text-align: left;
+  overflow: hidden;
 }
 
 .hero-redesign .hero-content {
@@ -372,7 +375,9 @@ a:hover {
 
 .hero-redesign .hero-text {
   flex: 1;
+  width: 100%;
   max-width: 560px;
+  overflow-wrap: break-word;
 }
 
 @media (min-width: 768px) {
@@ -382,9 +387,11 @@ a:hover {
 }
 
 .hero-redesign h1 {
-  font-size: 2.25rem;
+  font-size: 1.875rem;
   line-height: 1.15;
   margin-bottom: 1.25rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 @media (min-width: 768px) {
@@ -834,6 +841,38 @@ section h2 {
 
 .page-content h1 {
   margin-bottom: 2rem;
+}
+
+/* Feature detail cards — features.md */
+.feature-detail {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-detail h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--color-text-primary);
+}
+
+.feature-detail p {
+  margin-bottom: 0.5rem;
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+.feature-detail p:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .content .feature-detail + .feature-detail {
+    margin-top: 0;
+  }
 }
 
 .content {
@@ -1457,5 +1496,32 @@ section h2 {
     font-size: 28px;
     line-height: 36px;
     margin-bottom: 32px;
+  }
+}
+
+/* ── Mobile hero overflow fix ─────────────────────────── */
+@media (max-width: 767px) {
+  .hero-redesign .hero-content {
+    align-items: flex-start;
+  }
+
+  .hero-redesign .hero-text {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .hero-redesign h1,
+  .hero h1 {
+    font-size: 1.625rem;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
+
+  .hero-redesign .hero-subtitle {
+    font-size: 0.9375rem;
+    max-width: 100%;
   }
 }
