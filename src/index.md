@@ -56,7 +56,7 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
                     <a href="https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice" class="btn-playstore" target="_blank" rel="noopener">
                         <picture>
                             <source srcset="/public/images/google-play-badge.webp" type="image/webp">
-                            <img src="/public/images/google-play-badge.png" alt="Get it on Google Play" class="playstore-badge" width="200" height="60">
+                            <img src="/public/images/google-play-badge.png" alt="Get it on Google Play" class="playstore-badge" width="202" height="60">
                         </picture>
                     </a>
                 </div>
