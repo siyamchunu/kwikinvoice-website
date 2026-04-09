@@ -5,7 +5,8 @@ description: How KwikInvoice protects your data. Learn about our privacy practic
 ---
 
 
-**Last Updated:** February 11, 2026  
+<!-- TODO: Update "Last Updated" again if further changes are made before v1.0.2 ships -->
+**Last Updated:** April 9, 2026  
 **Effective Date:** February 11, 2026
 
 ---
@@ -45,27 +46,39 @@ When you use KwikInvoice, you may provide the following information:
 - Invoice status (draft, unpaid, paid)
 - Invoice notes
 
-**Contact Access (Optional):**
-- With your explicit permission, we may access your device contacts to help you quickly add client information
+**Contact Data (Optional):**
+- With your explicit permission, we may access your device contacts (READ_CONTACTS) to help you quickly add client information via autocomplete
+- **Contacts are NEVER stored in the app or uploaded to any server**
+- Contact data is used **in-memory only** during the autocomplete session and is discarded when you stop typing or close the picker
+- Only clients you manually save are stored locally in the SQLite database
 - This permission is optional and can be denied or revoked at any time
 
+**Business & Financial Data:**
+- Business name, address, bank details, VAT number, and invoice data are stored **locally in SQLite on your device** — never transmitted to any server
+- **Security note:** The local SQLite database is currently unencrypted. Your data is protected by Android's app sandboxing, but may be accessible on rooted devices or via unencrypted device backups. We recommend enabling full-device encryption on your Android device. Database-level encryption is planned for a future update
+
 ### 2. Information Collected Automatically
+
+**Analytics Data:**
+- Firebase Analytics uses an **anonymous, randomly-generated identifier** (`@invoiceflow_user_id` stored in AsyncStorage). This identifier is **not linked to your name, email, or any personally identifiable information (PII)**
+- Events collected include: app opens, screen views, invoice creation counts, client creation counts, PDF sharing/generation, paywall views and interactions, subscription purchase events, onboarding completion, in-app review prompt responses, client selection methods, invoice status changes, settings changes, error events, and feature usage metrics (20+ distinct event types)
+- Analytics data is transmitted to **Google Firebase (USA, Google LLC)**
+- Analytics data is **not sold to third parties** and is used solely for app improvement
+
+**Subscription & Purchase Data:**
+- **RevenueCat, Inc.** (US-based) processes subscription management data including: purchase history, device identifiers, transaction data, and entitlement status
+- RevenueCat does not see your payment card details (those are handled exclusively by Google Play Billing)
+- RevenueCat Privacy Policy: [https://www.revenuecat.com/privacy](https://www.revenuecat.com/privacy)
 
 **Device Information:**
 - Device type and model
 - Operating system version (Android version)
 - App version
-- Unique device identifiers (for analytics only)
-
-**Usage Analytics:**
-- App usage patterns (e.g., features used, time spent in app)
-- Invoice creation and sharing frequency
-- Performance metrics (e.g., app crashes, loading times)
-- Subscription status (free vs. Pro)
+- Anonymous device identifiers (for analytics only)
 
 **Local Storage:**
 - All invoice, client, and business data is stored locally on your device using SQLite database
-- Analytics events are stored locally in device storage (AsyncStorage)
+- Analytics events are stored locally in device storage (AsyncStorage) before transmission
 
 ### 3. Information We Do NOT Collect
 
@@ -119,10 +132,11 @@ We use the collected information for the following purposes:
 ### Security Measures
 We implement industry-standard security measures to protect your information:
 
-- **Encryption:** SQLite database uses Write-Ahead Logging (WAL) mode for data integrity
-- **Local Storage:** All data is stored in app-specific directories protected by Android's app sandboxing
+- **App Sandboxing:** All data is stored in app-specific directories protected by Android's app sandboxing
+- **Data Integrity:** SQLite database uses Write-Ahead Logging (WAL) mode for data integrity
 - **No Cloud Backup:** Invoice and client data is not transmitted to external servers
 - **Secure Communications:** Any network requests use HTTPS encryption
+- **Important Security Disclosure:** The local SQLite database is currently **unencrypted**. While protected by Android's app sandboxing, data may be accessible on rooted devices or through unencrypted device backups. We strongly recommend enabling **full-device encryption** in your Android settings. Database-level encryption is planned for a future update
 
 ### Data Retention
 - **Invoice Data:** Retained locally on your device until you delete it
@@ -138,35 +152,54 @@ We do not sell, rent, or trade your personal information to third parties for ma
 
 ### Third-Party Services We Use
 
+The following table summarises the third-party services used by KwikInvoice:
+
+| Service | Purpose | Data Processed | Location | Privacy Policy |
+|---|---|---|---|---|
+| Google Firebase Analytics | App usage analytics | Anonymous user ID (`@invoiceflow_user_id`), usage events | USA (Google LLC) | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| RevenueCat | Subscription management | Purchase history, device IDs, transaction data | USA (RevenueCat, Inc.) | [revenuecat.com/privacy](https://www.revenuecat.com/privacy) |
+| Google Play Billing | Payment processing | Subscription status only | USA (Google LLC) | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| Google Play In-App Review API | In-app review prompt | No personal data collected by us; review content goes directly to Google Play | USA (Google LLC) | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| Expo (Development Framework) | App framework and development tools | Basic device and app version information (in development mode only) | USA | [Expo Privacy Policy](https://expo.dev/privacy) |
+
+**Cross-Border Data Transfer (POPIA Section 72):**
+RevenueCat and Google Firebase Analytics are US-based services. Under POPIA Section 72, cross-border transfer of personal information requires your consent or adequate protection. By using KwikInvoice's analytics features and subscribing to Pro, you consent to the transfer of the above-described anonymous analytics data and subscription management data to these US-based processors. Both Google and RevenueCat maintain data protection practices that provide adequate safeguards for your data.
+
 **1. Google Play Billing**
 - **Purpose:** Process subscription payments
 - **Data Shared:** Subscription status only
 - **Privacy Policy:** [Google Play Billing Privacy Policy](https://policies.google.com/privacy)
 
-**2. Expo (Development Framework)**
-- **Purpose:** App framework and development tools
-- **Data Shared:** Basic device and app version information (in development mode only)
-- **Privacy Policy:** [Expo Privacy Policy](https://expo.dev/privacy)
-
-**3. Firebase Analytics (Active)**
+**2. Firebase Analytics (Active)**
 - **Purpose:** Track app usage and feature adoption for product improvement
 - **Data Shared:** 
-  - Event names (e.g., "invoice_created", "pdf_generated")
-  - Anonymized device IDs
+  - Anonymous user ID (`@invoiceflow_user_id` — randomly generated, not linked to PII)
+  - Event names (e.g., "invoice_created", "pdf_generated", "paywall_displayed", "onboarding_completed")
   - App version and OS version
   - Event properties (e.g., invoice count, feature usage)
 - **No PII Shared:** Invoice content, client names, and business data NOT transmitted
 - **Privacy Policy:** [Firebase Privacy Policy](https://firebase.google.com/support/privacy)
-- **Opt-Out:** Currently not available in v1.0.0 (planned for v1.1.0)
+- **Opt-Out:** Currently not available in v1.0.x (planned for future release)
 
-**4. RevenueCat (Subscription Management)**
+**3. RevenueCat (Subscription Management)**
 - **Purpose:** Manage subscription status and entitlements
 - **Data Shared:** 
   - Subscription status (Free/Pro)
   - Purchase events
   - Device identifiers (for entitlement sync)
 - **No Financial Data:** RevenueCat does not see payment details (handled by Google Play)
+- **Note:** RevenueCat is a US-based company. Under POPIA Section 72, cross-border transfers require consent or adequate protection. By subscribing to Pro, you consent to this transfer of subscription management data to RevenueCat's US-based servers
 - **Privacy Policy:** [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
+
+**4. Google Play In-App Review API**
+- **Purpose:** Prompt users to rate and review the app within the app experience
+- **Data Shared:** No personal data is collected by KwikInvoice through this API. Review content is submitted directly to Google Play by the user
+- **Privacy Policy:** [Google Privacy Policy](https://policies.google.com/privacy)
+
+**5. Expo (Development Framework)**
+- **Purpose:** App framework and development tools
+- **Data Shared:** Basic device and app version information (in development mode only)
+- **Privacy Policy:** [Expo Privacy Policy](https://expo.dev/privacy)
 
 ### Data Sharing Scenarios
 
@@ -224,7 +257,7 @@ We may share your information only in the following limited circumstances:
 
 KwikInvoice is not intended for use by individuals under the age of 18. We do not knowingly collect personal information from children under 18.
 
-If you are a parent or guardian and believe your child has provided us with personal information, please contact us at kwikInvoice@loggedOn.co.za, and we will delete such information.
+If you are a parent or guardian and believe your child has provided us with personal information, please contact us at kwikinvoice@loggedon.co.za, and we will delete such information.
 
 ---
 
@@ -244,7 +277,7 @@ If you are located in the European Economic Area (EEA), you have additional righ
 - Right to data portability
 - Right to object to processing
 
-To exercise these rights, contact us at kwikInvoice@loggedOn.co.za.
+To exercise these rights, contact us at kwikinvoice@loggedon.co.za.
 
 ---
 
@@ -268,9 +301,9 @@ We may update this Privacy Policy from time to time to reflect changes in our pr
 
 If you have questions, concerns, or requests regarding this Privacy Policy or your personal information, please contact us:
 
-**Email:** kwikInvoice@loggedOn.co.za  
+**Email:** kwikinvoice@loggedon.co.za  
 **Developer:** KwikInvoice Development Team  
-**Information Officer (POPIA):** a291kitchen@gmail.com  
+**Information Officer (POPIA):** Siya Mchunu — kwikinvoice@loggedon.co.za  
 **Business Structure:** Virtual business (no physical office location)
 
 **Response Time:** We aim to respond to all inquiries within 7 business days.
@@ -281,18 +314,24 @@ If you have questions, concerns, or requests regarding this Privacy Policy or yo
 
 KwikInvoice complies with the Protection of Personal Information Act (POPIA), Act 4 of 2013.
 
-**Information Officer:**
-- Email: a291kitchen@gmail.com
-- Responsible for processing requests related to personal information under POPIA
+### Responsible Party & Information Officer (POPIA Section 55)
+
+**Legal Name:** KwikInvoice  
+**Email:** kwikinvoice@loggedon.co.za  
+**Information Officer:** Siya Mchunu, designated in terms of POPIA Section 55  
+**Physical Address:** [PHYSICAL ADDRESS — to be completed by Information Officer]
+
+The Information Officer is responsible for processing all requests related to personal information under POPIA.
 
 **Your Rights Under POPIA:**
-- Right to access your personal information
-- Right to have your personal information corrected or deleted
-- Right to object to the processing of your personal information
-- Right to lodge a complaint with the Information Regulator of South Africa
+- **Right to access** your personal information (Section 23)
+- **Right to correction** of inaccurate personal information (Section 24)
+- **Right to deletion** of your personal information (Section 24)
+- **Right to object** to the processing of your personal information (Section 11(3))
+- **Right to lodge a complaint** with the Information Regulator of South Africa
 
 **How to Exercise Your POPIA Rights:**
-Contact our Information Officer at a291kitchen@gmail.com with your request. We will respond within 30 days as required by POPIA.
+Contact our Information Officer, Siya Mchunu, at kwikinvoice@loggedon.co.za with your request. Please include sufficient detail to identify yourself and the nature of your request. We will respond within 30 days as required by POPIA.
 
 **Information Regulator South Africa:**
 - Website: https://inforegulator.org.za
@@ -305,10 +344,11 @@ Contact our Information Officer at a291kitchen@gmail.com with your request. We w
 
 ### App Permissions Explanation
 
-**Contacts Permission:**
-- **Why:** To help you quickly add client information from your existing contacts
+**Contacts Permission (READ_CONTACTS):**
+- **Why:** To help you quickly add client information from your existing contacts via autocomplete
 - **Optional:** You can decline this permission and manually enter client details
 - **Usage:** Only accessed when you choose to import a contact from KwikInvoice
+- **Important:** Contacts are used **in-memory only** during autocomplete. They are **never stored in the app** and **never uploaded to any server**. Only clients you manually save are persisted locally
 
 **Storage Permission:**
 - **Why:** To save generated PDF invoices to your device
@@ -367,7 +407,7 @@ If you are a California resident, you have the following rights under CCPA:
 **4. Right to Non-Discrimination**
 - You will not receive discriminatory treatment for exercising your privacy rights
 
-To exercise these rights, contact us at kwikInvoice@loggedOn.co.za.
+To exercise these rights, contact us at kwikinvoice@loggedon.co.za.
 
 ---
 
@@ -383,6 +423,6 @@ If you do not agree with this Privacy Policy, please do not use the app.
 
 ---
 
-**Document Version:** 1.0  
-**Last Reviewed:** February 10, 2026  
-**Next Review Date:** August 10, 2026
+**Document Version:** 2.0 (POPIA & Play Store Legal Compliance — Story 143)  
+**Last Reviewed:** April 9, 2026  
+**Next Review Date:** October 9, 2026
