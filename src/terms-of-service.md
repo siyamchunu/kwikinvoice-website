@@ -5,7 +5,7 @@ description: KwikInvoice terms of use. Understand your rights and responsibiliti
 ---
 
 
-**Last Updated:** February 11, 2026  
+**Last Updated:** April 9, 2026  
 **Effective Date:** February 11, 2026
 
 ---
@@ -34,18 +34,25 @@ KwikInvoice is a mobile application designed to help small businesses and freela
 **Subscription Plans:**
 
 **Free Plan:**
-- Create up to 5 invoices per calendar month
+- Create up to 5 invoices per calendar month (no credit card required)
 - All core features included
-- Invoice counter resets on the 1st of each month
+- Invoice counter resets on the 1st of each month at midnight SAST
 - Local storage only (no cloud backup)
 
-**Pro Plan (Future):**
+**Pro Plan — Monthly (R79/month):**
 - Unlimited invoices per month
 - All Free plan features
-- Priority support
-- Access to future premium features
+- Custom business logo on invoices
+- Remove "Powered by KwikInvoice" watermark
+- Export invoices to CSV/Excel
+- Priority email support
+- Access to all future premium features
+- Billed monthly to your Google Play account
 
-**Note:** Pro subscription functionality is currently in development. Payment processing will be handled through Google Play Billing when available.
+**Pro Plan — Annual (R699/year — save 26% vs monthly):**
+- All Pro Monthly features
+- Best value pricing
+- Billed annually to your Google Play account
 
 ---
 
@@ -87,39 +94,56 @@ You are responsible for:
 
 ## 5. Subscription and Billing
 
+### Subscription Plans & Pricing
+KwikInvoice offers the following subscription plans:
+
+| Plan | Price | Billing | Invoices |
+|---|---|---|---|
+| **Free** | R0 (no credit card required) | — | 5 per calendar month |
+| **Pro Monthly** | R79/month | Monthly auto-renewal | Unlimited |
+| **Pro Annual** | R699/year (save 26% vs monthly) | Annual auto-renewal | Unlimited |
+
+All prices are in South African Rand (ZAR) and are inclusive of VAT where applicable. Prices are subject to change with 30 days' notice.
+
 ### Free Plan Limits
 - The Free plan allows **5 invoices per calendar month**
-- Invoice counter resets automatically on the 1st of each month at 00:00:00 local time
+- Invoice counter resets automatically on the **1st of each month at midnight SAST** (South Africa Standard Time, UTC+2)
 - Existing invoices remain accessible after reaching the limit
 - You can view, share, and manage existing invoices without restriction
 
-### Pro Subscription (When Available)
-**Current Status:** Mock/testing mode. Real payment processing not yet implemented.
+### Billing Cycle
+- All subscription payments are processed through **Google Play Billing** only
+- Subscriptions **auto-renew** at the end of each billing period (monthly or annual) unless cancelled at least 24 hours before the renewal date
+- Billing is managed entirely by Google Play — KwikInvoice does not process payments directly
 
-**When Live:**
-- Billing through Google Play Store only
-- Subscription price: R79.00/month OR R699.00/year (subject to change)
-- Billed monthly or annually to your Google Play account
-- Automatic renewal unless cancelled
-- Google takes 15% transaction fee (monthly: you pay R79, we receive ~R67; annual: you pay R699, we receive ~R594)
+### Free Trial (Where Offered)
+- If a free trial is offered for Pro, it will be clearly indicated at the time of subscription
+- At the end of the trial period, your subscription will automatically convert to the selected paid plan unless cancelled before the trial ends
+- Free trials are available once per Google Play account
+
+### Downgrade to Free
+- If you cancel your Pro subscription, it **reverts to the Free plan at the end of the current billing period**
+- **All your data is retained** — no invoices, clients, or business data is deleted upon downgrade
+- After downgrade, the monthly invoice counter is capped at 5 per calendar month
+- Existing invoices remain fully accessible (view, share, manage)
+
+### Cancellation
+- Cancel anytime through **Google Play Store → Subscriptions**
+- Cancellation takes effect at the **end of the current billing period** — you retain Pro access until then
+- No partial refunds for unused time within a billing period
+- After the billing period ends, your account reverts to the Free plan
+
+### Refunds
+- Refund requests must be made through **Google Play Store** support
+- Subject to Google Play's refund policies
+- Generally, refunds are available within 48 hours of purchase
+- KwikInvoice does not process refunds directly — all refund requests are handled by Google Play
 
 ### Payment Terms
 - All payments processed through Google Play Billing
 - Subject to Google Play's payment terms and policies
-- Payments are non-refundable except as required by law
+- Payments are non-refundable except as required by law or Google Play policy
 - Subscription continues until you cancel
-
-### Cancellation
-- Cancel anytime through Google Play Store → Subscriptions
-- Access to Pro features continues until end of billing period
-- No partial refunds for unused time
-- After cancellation, reverts to Free plan (5 invoices/month limit)
-
-### Refunds
-- Refund requests must be made through Google Play Store
-- Subject to Google Play's refund policies
-- Generally, refunds available within 48 hours of purchase
-- We do not process refunds directly
 
 ---
 
@@ -351,7 +375,7 @@ Upon termination:
 These Terms are governed by the laws of **South Africa**, without regard to conflict of law principles.
 
 ### Informal Resolution
-Before filing a claim, you agree to contact us at kwikInvoice@loggedOn.co.za to attempt informal resolution. We'll try to resolve disputes amicably within 30 days.
+Before filing a claim, you agree to contact us at kwikinvoice@loggedon.co.za to attempt informal resolution. We'll try to resolve disputes amicably within 30 days.
 
 ### Arbitration (If Required)
 If informal resolution fails:
@@ -390,7 +414,7 @@ We are not liable for failures due to causes beyond our reasonable control (natu
 These Terms are written in English. Translations (if any) are for convenience only. English version controls.
 
 ### Contact for Legal Notices
-Legal notices must be sent to: kwikInvoice@loggedOn.co.za
+Legal notices must be sent to: kwikinvoice@loggedon.co.za
 
 **Business Structure:** Virtual business (no physical office location)
 
@@ -455,27 +479,43 @@ If you use a pre-release or beta version:
 
 ## 20. Accessibility
 
-We strive to make KwikInvoice accessible to users with disabilities. If you encounter accessibility issues, please contact us at kwikInvoice@loggedOn.co.za.
+We strive to make KwikInvoice accessible to users with disabilities. If you encounter accessibility issues, please contact us at kwikinvoice@loggedon.co.za.
 
 ---
 
-## 21. Contact Information
+## 21. Supplier Identification (CPA Section 16)
+
+In compliance with Section 16 of the Consumer Protection Act (CPA), Act 68 of 2008, the following information is provided:
+
+**Legal Name:** KwikInvoice  
+**Email:** kwikinvoice@loggedon.co.za  
+**Information Officer:** Siya Mchunu  
+**Physical Address:** [PHYSICAL ADDRESS — to be completed by Information Officer]
+
+---
+
+## 22. Contact Information
 
 **For questions about these Terms:**
-- Email: kwikInvoice@loggedOn.co.za
+- Email: kwikinvoice@loggedon.co.za
 - Response time: Within 7 business days
 
 **For technical support:**
-- Email: kwikInvoice@loggedOn.co.za
+- Email: kwikinvoice@loggedon.co.za
 - In-app feedback (Settings → Help & Feedback)
 
 **For billing/subscription issues:**
 - Contact Google Play Store support directly
 - We cannot process refunds outside of Google Play
 
+**Legal Entity:**  
+KwikInvoice  
+Information Officer: Siya Mchunu  
+Email: kwikinvoice@loggedon.co.za
+
 ---
 
-## 22. Acknowledgment
+## 23. Acknowledgment
 
 By using KwikInvoice, you acknowledge that:
 - You have read and understood these Terms
@@ -496,12 +536,12 @@ By using KwikInvoice, you acknowledge that:
 
 ## Document Information
 
-**Version:** 1.0  
-**Last Updated:** February 10, 2026  
-**Last Reviewed:** February 10, 2026  
-**Next Review Date:** August 10, 2026
+**Version:** 2.0 (POPIA & Play Store Legal Compliance — Story 143)  
+**Last Updated:** April 9, 2026  
+**Last Reviewed:** April 9, 2026  
+**Next Review Date:** October 9, 2026
 
-**Changes from Previous Version:** N/A - Initial version
+**Changes from Previous Version:** Added detailed Subscription & Billing section with plan pricing, billing cycle, downgrade, and counter reset details. Added Supplier Identification (CPA Section 16). Corrected email address to kwikinvoice@loggedon.co.za. Renumbered sections.
 
 ---
 
@@ -510,8 +550,9 @@ By using KwikInvoice, you acknowledge that:
 This is a plain-language summary for your convenience. The full Terms above are the legally binding agreement.
 
 **What you get:**
-- Free: 5 invoices/month, all features
-- Pro (future): Unlimited invoices, R79/month or R699/year
+- Free: 5 invoices/month, all core features, no credit card
+- Pro Monthly: R79/month, unlimited invoices
+- Pro Annual: R699/year (save 26% vs monthly), unlimited invoices
 
 **What you should know:**
 - All data stored on your device (we can't access it)
@@ -526,8 +567,8 @@ This is a plain-language summary for your convenience. The full Terms above are 
 - Reverse engineer the app
 - Violate laws or others' rights
 
-**Questions?** Email kwikInvoice@loggedOn.co.za
+**Questions?** Email kwikinvoice@loggedon.co.za
 
 ---
 
-*These Terms of Service are effective as of February 11, 2026*
+*These Terms of Service are effective as of February 11, 2026 and were last updated on April 9, 2026*
