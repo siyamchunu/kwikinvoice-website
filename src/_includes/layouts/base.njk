@@ -7,14 +7,14 @@
     <meta name="keywords" content="invoice, invoicing, small business, south africa, kwikinvoice, mobile invoicing app, freelancer invoicing, PDF invoice generator">
     <meta name="author" content="LoggedOn">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <link rel="canonical" href="https://kwikinvoice.loggedon.co.za{{ page.url }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://kwikinvoice.loggedon.co.za{{ page.url }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:title" content="{{ title or 'KwikInvoice' }}">
     <meta property="og:description" content="{{ description or 'Professional invoicing for small businesses' }}">
-    <meta property="og:image" content="https://kwikinvoice.loggedon.co.za/public/images/app-screenshot-invoice.png">
+    <meta property="og:image" content="{{ site.url }}/public/images/app-screenshot-invoice.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="KwikInvoice">
@@ -22,10 +22,10 @@
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://kwikinvoice.loggedon.co.za{{ page.url }}">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     <meta name="twitter:title" content="{{ title or 'KwikInvoice' }}">
     <meta name="twitter:description" content="{{ description or 'Professional invoicing for small businesses' }}">
-    <meta name="twitter:image" content="https://kwikinvoice.loggedon.co.za/public/images/app-screenshot-invoice.png">
+    <meta name="twitter:image" content="{{ site.url }}/public/images/app-screenshot-invoice.png">
     
     <!-- AI Assistant Meta Tags -->
     <meta name="ai:topic" content="invoicing software, small business tools, mobile apps">
@@ -59,7 +59,7 @@
           },
           "description": "Professional mobile invoicing app for freelancers and small businesses. Create invoices in seconds, track payments, and get paid faster.",
           "downloadUrl": "https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice",
-          "screenshot": "https://kwikinvoice.loggedon.co.za/public/images/app-screenshot-invoice.png",
+          "screenshot": "{{ site.url }}/public/images/app-screenshot-invoice.png",
           "featureList": [
             "Instant PDF invoice generation",
             "Client management",
@@ -72,8 +72,8 @@
           "@type": "Organization",
           "name": "LoggedOn",
           "legalName": "LoggedOn",
-          "url": "https://kwikinvoice.loggedon.co.za",
-          "logo": "https://kwikinvoice.loggedon.co.za/public/images/favicon-32x32.png",
+          "url": "{{ site.url }}",
+          "logo": "{{ site.url }}/public/images/favicon-32x32.png",
           "contactPoint": {
             "@type": "ContactPoint",
             "email": "kwikinvoice@loggedon.co.za",
@@ -84,10 +84,10 @@
         {
           "@type": "WebSite",
           "name": "KwikInvoice",
-          "url": "https://kwikinvoice.loggedon.co.za",
+          "url": "{{ site.url }}",
           "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://kwikinvoice.loggedon.co.za/blog?q={search_term_string}",
+            "target": "{{ site.url }}/blog?q={search_term_string}",
             "query-input": "required name=search_term_string"
           }
         },

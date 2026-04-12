@@ -90,9 +90,9 @@ description: Lightning-fast PDF generation, offline invoicing, client management
     "Export to PDF and share via any app"
   ],
   "screenshot": [
-    "https://kwikinvoice.loggedon.co.za/public/images/app-screenshot-invoice.png",
-    "https://kwikinvoice.loggedon.co.za/public/images/screenshot-dashboard.png",
-    "https://kwikinvoice.loggedon.co.za/public/images/screenshot-create.png"
+    "https://kwikinvoice.app/public/images/app-screenshot-invoice.png",
+    "https://kwikinvoice.app/public/images/screenshot-dashboard.png",
+    "https://kwikinvoice.app/public/images/screenshot-create.png"
   ]
 }
 </script>

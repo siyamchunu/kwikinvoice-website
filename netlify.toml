@@ -64,3 +64,10 @@
   [headers.values]
     # Homepage - short cache
     Cache-Control = "public, max-age=300, must-revalidate"
+
+# Redirect old domain to new domain (301 permanent)
+[[redirects]]
+  from = "https://kwikinvoice.loggedon.co.za/*"
+  to = "https://kwikinvoice.app/:splat"
+  status = 301
+  force = true

@@ -1,0 +1,10 @@
+{
+  "name": "KwikInvoice",
+  "url": "https://kwikinvoice.app",
+  "oldUrl": "https://kwikinvoice.loggedon.co.za",
+  "email": "kwikinvoice@loggedon.co.za",
+  "author": "LoggedOn",
+  "description": "Professional invoicing for small businesses in South Africa",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.loggedon.kwikinvoice",
+  "locale": "en-ZA"
+}
