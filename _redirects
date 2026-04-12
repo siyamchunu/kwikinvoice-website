@@ -1,2 +1,6 @@
+# Path redirects
 /privacy    /privacy-policy    301
 /terms      /terms-of-service  301
+
+# Old domain → new domain (301 permanent redirect)
+https://kwikinvoice.loggedon.co.za/*    https://kwikinvoice.app/:splat    301!

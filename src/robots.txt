@@ -25,4 +25,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 # Sitemap
-Sitemap: https://kwikinvoice.loggedon.co.za/sitemap.xml
+Sitemap: https://kwikinvoice.app/sitemap.xml

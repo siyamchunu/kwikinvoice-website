@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://kwikinvoice.loggedon.co.za/sitemap.xml
+Sitemap: https://kwikinvoice.app/sitemap.xml
 
 # Disallow paths (none for now, allow everything)
 # Disallow: /admin/
