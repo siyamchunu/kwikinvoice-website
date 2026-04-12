@@ -14,7 +14,7 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:title" content="{{ title or 'KwikInvoice' }}">
     <meta property="og:description" content="{{ description or 'Professional invoicing for small businesses' }}">
-    <meta property="og:image" content="{{ site.url }}/public/images/app-screenshot-invoice.png">
+    <meta property="og:image" content="{{ site.url }}{% if image %}{{ image }}{% else %}/public/images/app-screenshot-invoice.png{% endif %}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="KwikInvoice">
@@ -25,7 +25,7 @@
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     <meta name="twitter:title" content="{{ title or 'KwikInvoice' }}">
     <meta name="twitter:description" content="{{ description or 'Professional invoicing for small businesses' }}">
-    <meta name="twitter:image" content="{{ site.url }}/public/images/app-screenshot-invoice.png">
+    <meta name="twitter:image" content="{{ site.url }}{% if image %}{{ image }}{% else %}/public/images/app-screenshot-invoice.png{% endif %}">
     
     <!-- AI Assistant Meta Tags -->
     <meta name="ai:topic" content="invoicing software, small business tools, mobile apps">
