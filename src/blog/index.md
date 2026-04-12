@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: Blog - Invoicing Tips & Small Business Advice | KwikInvoice
+title: Blog — Invoicing Tips & Small Business Advice
 description: Expert tips on invoicing, payments, and running a small business. Learn how to get paid faster and manage your finances better.
 ---
 

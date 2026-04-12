@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy",
+    "build": "eleventy && postcss public/css/styles.css -o public/css/styles.min.css --no-map",
     "clean": "rm -rf _site",
     "lighthouse": "lighthouse http://localhost:8080 --output html --output-path ./reports/lighthouse-report.html --chrome-flags='--headless'",
     "lighthouse:ci": "lhci autorun",

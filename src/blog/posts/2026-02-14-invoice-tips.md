@@ -1,115 +1,98 @@
 ---
 layout: layouts/blog.njk
-title: 5 Tips for Creating Professional Invoices
+title: "5 Invoicing Tips Every South African Freelancer Needs to Know"
 date: 2026-02-14
 category: Tips
-excerpt: Learn how to create invoices that get paid faster and make your business look professional.
+excerpt: "Creating invoices that actually get paid — and keep SARS happy. Here's what every SA freelancer should know about professional invoicing."
 ---
 
-Creating professional invoices is crucial for getting paid on time and maintaining a professional image. Here are our top 5 tips for invoicing success.
+Creating professional invoices isn't just about looking good — it's about getting paid on time and staying on the right side of SARS. Whether you're a plumber in Pretoria or a designer in Durban, these five tips will help you invoice like a pro.
 
-## 1. Include All Essential Information
+## 1. Include All the Fields SARS Requires
 
-A complete invoice should always include:
+If you're VAT registered, your tax invoice **must** include these 7 mandatory fields (VAT Act Section 20):
 
-- **Your business details**: Name, address, contact info, VAT number
-- **Client details**: Full name/company, address, contact
-- **Invoice number**: Unique, sequential numbering
-- **Date issued** and **payment due date**
-- **Detailed line items**: Description, quantity, rate, amount
-- **Total amount**: Including VAT breakdown if applicable
-- **Payment terms**: How and when to pay
+- **The words "Tax Invoice"** at the top
+- **Your business details**: Name, address, VAT number
+- **Client details**: Name and address (plus VAT number for invoices over R5,000)
+- **Invoice number**: Unique, sequential — no gaps
+- **Date issued**
+- **Clear description** of goods or services (not just "services rendered")
+- **VAT breakdown**: Subtotal, VAT at 15%, and total including VAT
 
-**KwikInvoice automatically includes all these fields** to ensure your invoices are complete and compliant.
+Not VAT registered? You still need a professional invoice — just leave out the VAT number and VAT line.
+
+**KwikInvoice includes all these fields automatically** so you never miss one.
 
 ## 2. Be Clear About Payment Terms
 
-Don't leave your client guessing:
+Don't leave your client guessing when or how to pay:
 
-✅ **Good**: "Payment due within 30 days of invoice date"  
+✅ **Good**: "Payment due within 30 days of invoice date via EFT to FNB account ending 4521"  
 ❌ **Bad**: "Pay soon"
 
 Include:
 - Payment deadline (e.g., "Net 30 days")
-- Accepted payment methods
-- Bank details or payment links
-- Late payment penalties (if applicable)
+- Your banking details (bank, account number, branch code)
+- Payment reference (invoice number works perfectly)
+- Late payment terms (if applicable)
 
-## 3. Make It Easy to Pay
+## 3. Share via WhatsApp — It's How SA Works
 
-The easier you make it, the faster you'll get paid:
+Email is fine. But let's be honest — most South African clients respond faster on WhatsApp than email. Send your invoice as a PDF attachment on WhatsApp and you'll typically get a response the same day.
 
-- Provide clear bank details
-- Include payment reference numbers
-- Offer multiple payment methods if possible
-- Consider adding a "Pay Now" link (for Pro users)
+**Tip**: KwikInvoice lets you share a professional PDF invoice via WhatsApp in one tap — straight from the app.
 
-**Tip**: Send invoices via WhatsApp or email for instant delivery.
+## 4. Invoice Immediately — Don't Wait
 
-## 4. Use Professional Design
+The 21-day rule isn't just a suggestion — it's the law for VAT-registered vendors. Section 20(1) of the VAT Act requires you to issue a tax invoice within **21 days** of the date of supply.
 
-Your invoice reflects your brand. Make sure it:
+But even if you're not VAT registered, invoicing promptly is just good business:
 
-- Uses your business colors and logo
-- Has a clean, organized layout
-- Is easy to read (good fonts, spacing)
-- Looks professional on mobile and desktop
+- **The sooner you invoice, the sooner you get paid**
+- Clients forget the details of a job after a few weeks
+- You look more professional when you're organised
+- It's easier to track what's owed when invoices go out on time
 
-**KwikInvoice templates** are designed by professionals to make you look good without any design skills needed.
+With KwikInvoice, you can create and send an invoice right there on the job site — even without internet.
 
-## 5. Send Invoices Promptly
+## 5. Track What's Paid and What's Not
 
-Timing matters:
+Cash flow is the lifeblood of any small business. You need to know:
 
-- **Send immediately** after work is completed
-- Don't wait until the end of the month
-- The sooner you invoice, the sooner you get paid
+- Which invoices are paid ✅
+- Which are still outstanding 📨
+- How long clients typically take to pay
 
-Set reminders:
-- Before due date: "Friendly reminder"
-- On due date: "Payment due today"
-- After due date: "Follow-up for overdue payment"
+Don't rely on memory — use invoice status tracking to stay on top of your money.
 
-## Bonus Tip: Track Everything
+## Bonus: Keep Records for 5 Years
 
-Keep track of:
-- Which invoices are paid
-- Which are overdue
-- Average time to payment
-- Total revenue by month
+SARS requires you to keep copies of all invoices — both sent and received — for at least **5 years**. Digital copies are perfectly acceptable, and they're easier to search and impossible to lose in a flood or fire.
 
-KwikInvoice's **invoice status tracking** makes this automatic:
-- 📝 Draft (not sent yet)
-- 📨 Unpaid (sent, awaiting payment)
-- ✅ Paid (payment received)
+KwikInvoice stores all your invoices on your device automatically.
 
-## Common Mistakes to Avoid
+## Common Mistakes SA Freelancers Make
 
-❌ Missing information (incomplete invoices delay payment)  
-❌ Unclear payment terms (confusion = late payment)  
-❌ No follow-up on overdue invoices  
-❌ Not keeping records for tax purposes  
-❌ Using unprofessional templates
-
-## Tax Compliance (South Africa)
-
-If you're VAT registered:
-- Include your VAT number
-- Show VAT breakdown clearly
-- Keep records for 5 years minimum
-
-**Remember**: Proper invoicing isn't just professional—it's often legally required!
+❌ Writing "Invoice" instead of "Tax Invoice" when VAT registered  
+❌ Forgetting to include a VAT number  
+❌ Vague descriptions like "services rendered" (SARS wants specifics)  
+❌ Charging VAT when you're NOT registered (this is illegal)  
+❌ Waiting weeks to send invoices (21-day rule!)  
+❌ Not keeping records for 5 years
 
 ## Get Started with KwikInvoice
 
-Ready to create professional invoices that get paid faster?
+Ready to create SARS-compliant invoices that get paid faster?
 
 Download KwikInvoice today and:
-- Create your first invoice in under 2 minutes
-- Use professional templates
-- Track payment status
-- Export beautiful PDF invoices
+- Create your first invoice in under 60 seconds
+- Include your business logo for free
+- Share via WhatsApp or email in one tap
+- Work offline during load shedding
+
+**[Download free on Google Play](https://play.google.com/store/apps/details?id=com.kwikinvoice.app)**
 
 ---
 
-**Questions about invoicing?** Drop us an email at [kwikinvoice@loggedon.co.za](mailto:kwikinvoice@loggedon.co.za) and we'll help you out!
+**Questions about invoicing in South Africa?** Drop us an email at [kwikinvoice@loggedon.co.za](mailto:kwikinvoice@loggedon.co.za) and we'll help you out!

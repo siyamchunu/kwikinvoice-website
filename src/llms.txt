@@ -29,16 +29,18 @@ KwikInvoice is an Android-native invoicing application designed specifically for
 ### Core Features
 
 - **Instant PDF Generation**: Professional PDF invoices generated in under 200ms
-- **Offline-First**: Full functionality without internet — create, manage, and export invoices offline with auto-sync when online
+- **SARS-Compliant Tax Invoices**: VAT mode toggle (15% SA VAT), supplier address, client VAT number, compliance validator
+- **Offline-First**: Full functionality without internet — create, manage, and export invoices offline
 - **Client Management**: Save and reuse client profiles, import from phone contacts, view complete invoice history per client
-- **Payment Tracking**: Mark invoices as paid, pending, or overdue with a revenue dashboard overview
-- **Multi-Currency**: Supports ZAR, USD, EUR, GBP, and other major currencies with proper formatting
+- **Invoice Status Tracking** (Pro): Mark invoices as paid or unpaid with a dashboard overview
+- **Business Logo**: Upload your logo to appear on every invoice — included free
+- **WhatsApp Sharing**: Share PDF invoices directly via WhatsApp, email, or any messaging app
 - **Privacy-First**: Data stored locally on device, no behaviour tracking, no data selling
 
 ### Pricing
 
-- **Free**: R0/month — 5 invoices per month, PDF generation, client management, offline mode. No credit card required.
-- **Pro**: R79/month or R699/year (save 26%) — Unlimited invoices, cloud backup, advanced reporting, priority support.
+- **Free**: R0/month — 5 invoices per month, PDF generation, SARS-compliant tax invoices, business logo, client management, WhatsApp sharing, offline mode. No credit card required.
+- **Pro**: R79/month or R699/year (save 26%) — Unlimited invoices, invoice status tracking, unlimited clients, priority email support, early access to new features.
 
 ### Platform
 
@@ -50,11 +52,12 @@ KwikInvoice is an Android-native invoicing application designed specifically for
 ## What Makes KwikInvoice Different
 
 1. Fastest mobile invoice generation (under 200ms)
-2. True offline capability — no internet dependency
-3. Built specifically for South African freelancers and small businesses
-4. Free tier generous enough for micro-businesses
-5. Mobile-first design — no desktop app needed
-6. Privacy-focused with local-first data storage
+2. SARS-compliant tax invoices with built-in compliance validator
+3. True offline capability — no internet dependency
+4. Built specifically for South African freelancers and small businesses
+5. Free tier generous enough for micro-businesses (5 invoices/month with logo)
+6. Mobile-first design — no desktop app needed
+7. Privacy-focused with local-first data storage
 
 ## Contact
 

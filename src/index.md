@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
-title: KwikInvoice - Free Mobile Invoice App for Small Business
-description: Create professional invoices in seconds. Free mobile invoicing app for freelancers & small businesses. Works offline. Download on Android.
+title: KwikInvoice — Free SARS-Compliant Invoice App for SA Freelancers
+description: SARS-compliant tax invoices in 60 seconds. Free mobile invoicing app for South African freelancers. Works offline during load shedding. Share via WhatsApp. Download free on Android.
 ---
 
 <!-- FAQ Schema for AI Assistants -->
@@ -15,7 +15,7 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
       "name": "What is KwikInvoice?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "KwikInvoice is a professional mobile invoicing app designed for freelancers and small businesses in South Africa. It allows you to create PDF invoices in seconds, manage clients, track payments, and work offline from your Android phone."
+        "text": "KwikInvoice is a SARS-compliant mobile invoicing app built for South African freelancers and small businesses. Create tax invoices with all 7 mandatory fields per VAT Act Section 20, calculate 15% VAT automatically, and share via WhatsApp — even during load shedding."
       }
     },
     {
@@ -23,7 +23,7 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
       "name": "How much does KwikInvoice cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "KwikInvoice offers a free tier that includes 5 invoices per month with no credit card required. Premium plans are available for businesses that need more invoices."
+        "text": "KwikInvoice offers a free tier with 5 SARS-compliant invoices per month — including your business logo, 15% VAT support, and WhatsApp sharing. No credit card required. Pro is R79/month (or R699/year) for unlimited invoices and priority support."
       }
     },
     {
@@ -31,15 +31,15 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
       "name": "Can I use KwikInvoice offline?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, KwikInvoice works completely offline. You can create, manage, and generate PDF invoices without an internet connection."
+        "text": "Yes, KwikInvoice works 100% offline. Create, manage, and generate PDF invoices without any internet connection — perfect for load shedding or working on site with no signal. All data stays securely on your device."
       }
     },
     {
       "@type": "Question",
-      "name": "What currencies does KwikInvoice support?",
+      "name": "Is KwikInvoice SARS-compliant?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "KwikInvoice supports multiple currencies including South African Rand (ZAR) and other major international currencies, making it perfect for businesses dealing with international clients."
+        "text": "Yes, KwikInvoice generates SARS-compliant tax invoices with all mandatory fields. It includes a VAT mode toggle for 15% South African VAT, supplier address, client VAT number fields, and a built-in compliance validator to ensure your invoices meet SARS requirements."
       }
     }
   ]
@@ -50,8 +50,8 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
     <div class="container">
         <div class="hero-content">
             <div class="hero-text">
-                <h1>Create Professional Invoices in Seconds</h1>
-                <p class="hero-subtitle">The fast, simple invoicing app for freelancers and small businesses. Generate PDF invoices, manage clients, and track payments — all from your phone.</p>
+                <h1>SARS-Compliant Invoices in 60 Seconds</h1>
+                <p class="hero-subtitle">Built for South African freelancers who need to get paid. Tax invoices with all 7 SARS-mandatory fields, 15% VAT calculated automatically, share via WhatsApp — and it works offline during load shedding.</p>
                 <div class="hero-cta">
                     <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn-playstore" target="_blank" rel="noopener">
                         <picture>
@@ -62,15 +62,15 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
                 </div>
                 <div class="trust-badges">
                     <div class="trust-badge">
-                        <span class="trust-icon">🔒</span>
-                        <span>100% Secure</span>
+                        <span class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg></span>
+                        <span>WhatsApp Ready</span>
                     </div>
                     <div class="trust-badge">
-                        <span class="trust-icon">🌍</span>
-                        <span>Multi-Currency</span>
+                        <span class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg></span>
+                        <span>SARS Compliant</span>
                     </div>
                     <div class="trust-badge">
-                        <span class="trust-icon">📴</span>
+                        <span class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
                         <span>Works Offline</span>
                     </div>
                 </div>
@@ -100,16 +100,16 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
 
 <section class="features">
     <div class="container">
-        <h2>Everything You Need to Get Paid Faster</h2>
-        <p class="section-subtitle">Professional invoicing tools designed for busy entrepreneurs</p>
+        <h2>Built for How South Africa Does Business</h2>
+        <p class="section-subtitle">SARS compliance, WhatsApp sharing, and offline capability — designed for freelancers who hustle</p>
         
         <!-- HowTo Schema for AI Understanding -->
         <script type="application/ld+json">
         {
           "@context": "https://schema.org",
           "@type": "HowTo",
-          "name": "How to Create an Invoice with KwikInvoice",
-          "description": "Step-by-step guide to creating professional invoices using KwikInvoice mobile app",
+          "name": "How to Create a SARS-Compliant Invoice with KwikInvoice",
+          "description": "Create a SARS-compliant tax invoice in 60 seconds using the KwikInvoice mobile app",
           "step": [
             {
               "@type": "HowToStep",
@@ -130,12 +130,12 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
             {
               "@type": "HowToStep",
               "name": "Generate PDF",
-              "text": "Generate professional PDF invoice in under 200ms"
+              "text": "Generate a SARS-compliant PDF invoice in under 200ms — the pre-flight checker validates compliance automatically"
             },
             {
               "@type": "HowToStep",
               "name": "Share Invoice",
-              "text": "Share the invoice via email, WhatsApp, or any messaging app"
+              "text": "Share the invoice via WhatsApp, email, or any messaging app — one tap"
             }
           ]
         }
@@ -143,24 +143,24 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
         
         <div class="features-grid">
             <div class="feature-card">
-                <div class="feature-icon">📄</div>
-                <h3>Instant PDF Invoices</h3>
-                <p>Generate professional PDF invoices in under 200ms. Share directly via email, WhatsApp, or any app.</p>
+                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg></div>
+                <h3>SARS-Compliant Tax Invoices</h3>
+                <p>All 7 mandatory fields per VAT Act Section 20. 15% VAT calculated automatically. A built-in pre-flight checker validates 8 SARS rules before you share.</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">👥</div>
-                <h3>Client Management</h3>
-                <p>Save client details once, reuse forever. Import contacts directly from your phone.</p>
+                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg></div>
+                <h3>Share via WhatsApp</h3>
+                <p>Send professional PDF invoices straight to your client's WhatsApp in one tap. Because that's how South Africa does business.</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">📱</div>
-                <h3>Mobile-First Design</h3>
-                <p>Create invoices anywhere, anytime. No laptop needed — your business fits in your pocket.</p>
+                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+                <h3>Load Shedding Proof</h3>
+                <p>Works 100% offline. Create, manage, and generate invoices without internet. Your hustle doesn't stop when the lights go out.</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">💳</div>
-                <h3>Payment Tracking</h3>
-                <p>Mark invoices as paid, track outstanding amounts, and see your business overview at a glance.</p>
+                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+                <h3>Your Logo on Every Invoice</h3>
+                <p>Add your business logo for free — no Pro plan needed. Professional invoices that represent your brand from day one.</p>
             </div>
         </div>
     </div>
@@ -168,7 +168,7 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
 
 <section class="app-preview">
     <div class="container">
-        <h2>See KwikInvoice in Action</h2>
+        <h2>Invoice Like a Pro — From Your Phone</h2>
         <div class="screenshots-row">
             <div class="screenshot-item">
                 <picture>
@@ -179,7 +179,7 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
                         type="image/webp">
                     <img src="/public/images/screenshot-dashboard.png" alt="Invoice dashboard showing recent invoices" width="200" height="444" loading="lazy">
                 </picture>
-                <p class="screenshot-caption">Dashboard Overview</p>
+                <p class="screenshot-caption">Track every invoice</p>
             </div>
             <div class="screenshot-item">
                 <picture>
@@ -190,7 +190,7 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
                         type="image/webp">
                     <img src="/public/images/screenshot-create.png" alt="Creating a new invoice" width="200" height="444" loading="lazy">
                 </picture>
-                <p class="screenshot-caption">Create Invoice</p>
+                <p class="screenshot-caption">Create in 60 seconds</p>
             </div>
             <div class="screenshot-item">
                 <picture>
@@ -201,7 +201,7 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
                         type="image/webp">
                     <img src="/public/images/screenshot-pdf.png" alt="Professional PDF invoice preview" width="200" height="444" loading="lazy">
                 </picture>
-                <p class="screenshot-caption">PDF Preview</p>
+                <p class="screenshot-caption">Share via WhatsApp</p>
             </div>
         </div>
     </div>
@@ -232,14 +232,16 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
                         <span class="price">R0</span>
                         <span class="price-period">/month</span>
                     </div>
-                    <p class="tier-description">Perfect for trying KwikInvoice</p>
+                    <p class="tier-description">Everything you need to invoice professionally</p>
                 </div>
                 <ul class="features-list">
                     <li><span class="checkmark">✓</span> <strong>5 invoices per month</strong></li>
-                    <li><span class="checkmark">✓</span> Professional PDF invoices</li>
+                    <li><span class="checkmark">✓</span> SARS-compliant tax invoices</li>
+                    <li><span class="checkmark">✓</span> 15% VAT auto-calculated</li>
+                    <li><span class="checkmark">✓</span> Business logo on invoices</li>
+                    <li><span class="checkmark">✓</span> WhatsApp &amp; email sharing</li>
                     <li><span class="checkmark">✓</span> Client management</li>
-                    <li><span class="checkmark">✓</span> Works offline</li>
-                    <li><span class="checkmark">✓</span> Secure & private</li>
+                    <li><span class="checkmark">✓</span> Works 100% offline</li>
                 </ul>
                 <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-secondary btn-full" target="_blank" rel="noopener">
                     Get Started - It's Free
@@ -258,20 +260,16 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
                         <span class="price-period price-period-monthly">/month</span>
                         <span class="price-period price-period-annual" style="display: none;">/year</span>
                     </div>
-                    <p class="tier-description">For serious freelancers and businesses</p>
+                    <p class="tier-description">For freelancers ready to grow</p>
                     <p class="annual-equivalent" style="display: none;">Only R58/month</p>
                 </div>
                 <ul class="features-list">
                     <li><span class="checkmark">✓</span> <strong>Unlimited</strong> invoices per month</li>
-                    <li><span class="checkmark">✓</span> Professional PDF invoices</li>
-                    <li><span class="checkmark">✓</span> Invoice status tracking (Paid/Unpaid)</li>
+                    <li class="features-divider">Everything in Free, plus:</li>
+                    <li><span class="checkmark">✓</span> Invoice status tracking (Paid/Unpaid/Overdue)</li>
                     <li><span class="checkmark">✓</span> Unlimited client management</li>
-                    <li><span class="checkmark">✓</span> Works 100% offline</li>
-                    <li><span class="checkmark">✓</span> Fast PDF generation (&lt;200ms)</li>
                     <li><span class="checkmark">✓</span> Priority email support</li>
-                    <li><span class="checkmark">✓</span> Custom branding</li>
-                    <li><span class="checkmark">✓</span> Advanced analytics</li>
-                    <li><span class="checkmark">✓</span> Early access to features</li>
+                    <li><span class="checkmark">✓</span> Early access to new features</li>
                 </ul>
                 <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-full" target="_blank" rel="noopener">
                     <span class="cta-monthly">Start 7-Day Free Trial</span>
@@ -308,11 +306,11 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
             </div>
             <div class="faq-item">
                 <h3>Is my data secure?</h3>
-                <p>Absolutely. All data is encrypted and stored securely. We never share your information.</p>
+                <p>Your data stays on your device — not on someone else's server. No cloud dependency, no data breaches. You own your business data.</p>
             </div>
             <div class="faq-item">
                 <h3>Can I use KwikInvoice offline?</h3>
-                <p>Yes! Create invoices offline. They sync when you're back online.</p>
+                <p>Yes! KwikInvoice works 100% offline. Create, manage, and generate PDF invoices without any internet connection.</p>
             </div>
         </div>
     </div>
@@ -321,33 +319,12 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
 <section class="cta-section">
     <div class="container">
         <div class="cta-box">
-            <h2>Ready to Simplify Your Invoicing?</h2>
-            <p>Try KwikInvoice free — create your first professional invoice in under 60 seconds</p>
+            <h2>Your Hustle Deserves to Get Paid</h2>
+            <p>Join South African freelancers who invoice in 60 seconds — SARS-compliant, WhatsApp-ready, and load shedding proof</p>
             <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-large" target="_blank" rel="noopener">
                 Download Free on Google Play
             </a>
-            <p class="cta-note">Free tier includes 5 invoices/month • No credit card required</p>
-        </div>
-    </div>
-</section>
-
-<section class="legal-docs">
-    <div class="container">
-        <h2>Legal Information</h2>
-        <div class="card-grid">
-            <div class="card">
-                <div class="card-icon">📄</div>
-                <h3>Privacy Policy</h3>
-                <p>Learn how we protect your data and respect your privacy</p>
-                <a href="/privacy-policy" class="card-link">Read Privacy Policy →</a>
-            </div>
-            
-            <div class="card">
-                <div class="card-icon">📋</div>
-                <h3>Terms of Service</h3>
-                <p>Understand your rights and our terms of use</p>
-                <a href="/terms-of-service" class="card-link">Read Terms of Service →</a>
-            </div>
+            <p class="cta-note">Free tier includes 5 SARS-compliant invoices/month • No credit card required</p>
         </div>
     </div>
 </section>

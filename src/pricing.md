@@ -1,14 +1,14 @@
 ---
 layout: layouts/base.njk
-title: "Pricing - KwikInvoice | Free & Pro Plans"
-description: "Simple pricing: Start free with 5 invoices/month. Upgrade to Pro for unlimited invoices. No credit card required. Try KwikInvoice today."
+title: "Pricing — KwikInvoice Free & Pro Plans for SA Freelancers"
+description: "Start free with 5 SARS-compliant invoices/month including your business logo. Pro is R79/month for unlimited invoices — 60% less than the competition."
 ---
 
 <section class="pricing">
     <div class="container">
         <div class="pricing-header">
             <h1>Simple, Transparent Pricing</h1>
-            <p class="section-subtitle">Choose the plan that's right for your business. Start free, upgrade anytime.</p>
+            <p class="section-subtitle">Start free with SARS-compliant invoices. Upgrade when your business grows. No surprises.</p>
         </div>
         
         <div class="pricing-toggle-wrapper">
@@ -29,14 +29,17 @@ description: "Simple pricing: Start free with 5 invoices/month. Upgrade to Pro f
                         <span class="price">R0</span>
                         <span class="price-period">/month</span>
                     </div>
-                    <p class="tier-description">Perfect for trying KwikInvoice</p>
+                    <p class="tier-description">Everything you need to invoice professionally</p>
                 </div>
                 <ul class="features-list">
                     <li><span class="checkmark">✓</span> <strong>5 invoices per month</strong></li>
-                    <li><span class="checkmark">✓</span> Professional PDF invoices</li>
+                    <li><span class="checkmark">✓</span> SARS-compliant tax invoices</li>
+                    <li><span class="checkmark">✓</span> 15% VAT auto-calculated</li>
+                    <li><span class="checkmark">✓</span> Business logo on invoices</li>
+                    <li><span class="checkmark">✓</span> WhatsApp &amp; email sharing</li>
                     <li><span class="checkmark">✓</span> Client management</li>
-                    <li><span class="checkmark">✓</span> Works offline</li>
-                    <li><span class="checkmark">✓</span> Secure & private</li>
+                    <li><span class="checkmark">✓</span> Works 100% offline</li>
+                    <li><span class="checkmark">✓</span> Data stays on your device</li>
                 </ul>
                 <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-secondary btn-full" target="_blank" rel="noopener">
                     Get Started - It's Free
@@ -55,17 +58,16 @@ description: "Simple pricing: Start free with 5 invoices/month. Upgrade to Pro f
                         <span class="price-period price-period-monthly">/month</span>
                         <span class="price-period price-period-annual" style="display: none;">/year</span>
                     </div>
-                    <p class="tier-description">For serious freelancers and businesses</p>
+                    <p class="tier-description">For freelancers ready to grow</p>
                     <p class="annual-equivalent" style="display: none;">Only R58/month</p>
                 </div>
                 <ul class="features-list">
                     <li><span class="checkmark">✓</span> <strong>Unlimited</strong> invoices per month</li>
-                    <li><span class="checkmark">✓</span> Professional PDF invoices</li>
-                    <li><span class="checkmark">✓</span> Invoice status tracking (Paid/Unpaid)</li>
+                    <li class="features-divider">Everything in Free, plus:</li>
+                    <li><span class="checkmark">✓</span> Invoice status tracking (Paid/Unpaid/Overdue)</li>
                     <li><span class="checkmark">✓</span> Unlimited client management</li>
-                    <li><span class="checkmark">✓</span> Works 100% offline</li>
-                    <li><span class="checkmark">✓</span> Fast PDF generation (&lt;200ms)</li>
                     <li><span class="checkmark">✓</span> Priority email support</li>
+                    <li><span class="checkmark">✓</span> Early access to new features</li>
                 </ul>
                 <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-full" target="_blank" rel="noopener">
                     <span class="cta-monthly">Start 7-Day Free Trial</span>
@@ -102,11 +104,15 @@ description: "Simple pricing: Start free with 5 invoices/month. Upgrade to Pro f
             </div>
             <div class="faq-item">
                 <h3>Is my data secure?</h3>
-                <p>Absolutely. All data is encrypted and stored securely. We never share your information.</p>
+                <p>Your data stays on your device — not on someone else's server. No cloud dependency, no data breaches. You own your business data.</p>
             </div>
             <div class="faq-item">
                 <h3>Can I use KwikInvoice offline?</h3>
-                <p>Yes! Create invoices offline. They sync when you're back online.</p>
+                <p>Yes! KwikInvoice works 100% offline. Create, manage, and generate PDF invoices during load shedding or anywhere with no signal.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Are invoices SARS compliant?</h3>
+                <p>Yes. Every invoice includes all 7 mandatory fields per VAT Act Section 20. 15% VAT is calculated automatically, and our pre-flight checker validates compliance before you share.</p>
             </div>
             <div class="faq-item">
                 <h3>What payment methods do you accept?</h3>
@@ -119,8 +125,8 @@ description: "Simple pricing: Start free with 5 invoices/month. Upgrade to Pro f
 <section class="cta-section">
     <div class="container">
         <div class="cta-box">
-            <h2>Ready to Get Started?</h2>
-            <p>Download KwikInvoice today and create your first invoice in seconds</p>
+            <h2>Your Hustle Deserves to Get Paid</h2>
+            <p>Download KwikInvoice and send your first SARS-compliant invoice in under 60 seconds</p>
             <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-large" target="_blank" rel="noopener">
                 Download Free on Google Play
             </a>

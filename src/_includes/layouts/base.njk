@@ -33,9 +33,9 @@
     <meta name="ai:audience" content="freelancers, small business owners, entrepreneurs, contractors">
     <meta name="ai:region" content="South Africa, Africa">
     <meta name="ai:language" content="en-ZA">
-    <meta name="ai:features" content="invoice generation, PDF creation, client management, payment tracking, offline mode">
+    <meta name="ai:features" content="invoice generation, PDF creation, client management, SARS-compliant tax invoices, VAT support, business logo, WhatsApp sharing, offline mode">
     
-    <title>{% if title %}{{ title }} | KwikInvoice{% else %}KwikInvoice — Invoice App for South African Freelancers{% endif %}</title>
+    <title>{% if title %}{{ title }}{% if not ("KwikInvoice" in title) %} | KwikInvoice{% endif %}{% else %}KwikInvoice — Invoice App for South African Freelancers{% endif %}</title>
     
     <!-- JSON-LD Structured Data for AI & SEO -->
     <script type="application/ld+json">
@@ -53,18 +53,19 @@
             "priceCurrency": "ZAR"
           },
           
-          "description": "Professional mobile invoicing app for freelancers and small businesses. Create invoices in seconds, track payments, and get paid faster.",
+          "description": "Professional mobile invoicing app for freelancers and small businesses in South Africa. Create SARS-compliant tax invoices in seconds, manage clients, and work 100% offline.",
           "downloadUrl": "https://play.google.com/store/apps/details?id=com.kwikinvoice.app",
           "screenshot": "{{ site.url }}/public/images/app-screenshot-invoice.png",
           "featureList": [
             "Instant PDF invoice generation",
             "SARS-compliant tax invoices",
-            "VAT support (15%)",
-            "Business logo on invoices",
+            "VAT mode toggle (15% SA VAT)",
+            "Business logo on invoices (free)",
             "Client management",
-            "Payment tracking",
+            "Invoice status tracking (Pro)",
             "Offline functionality",
-            "WhatsApp invoice sharing"
+            "WhatsApp invoice sharing",
+            "Built-in compliance validator"
           ]
         },
         {
@@ -83,34 +84,15 @@
         {
           "@type": "WebSite",
           "name": "KwikInvoice",
-          "url": "{{ site.url }}",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "{{ site.url }}/blog?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "KwikInvoice",
-          "applicationCategory": "FinanceApplication",
-          "operatingSystem": "Android",
-          "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "ZAR"
-          },
-          "description": "Create professional invoices on your mobile device. Perfect for freelancers, contractors, and small business owners in South Africa."
+          "url": "{{ site.url }}"
         }
       ]
     }
     </script>
     
     <!-- Resource Hints for Performance -->
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link rel="dns-prefetch" href="https://play.google.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <!-- Preload Critical Assets -->
@@ -123,15 +105,13 @@
     
     <!-- Critical CSS Inline for Performance -->
     <style>
-      :root{--color-brand-blue:#2563EB;--color-brand-green:#10B981;--color-brand-amber:#F59E0B;--color-brand-night:#0F172A;--color-brand-white:#FFFFFF;--color-brand-charcoal:#1F2937;--color-primary:#2563EB;--color-primary-hover:#1D4ED8;--color-primary-dark:#60A5FA;--color-energy:#F59E0B;--color-energy-hover:#D97706;--color-success:#10B981;--color-success-text:#047857;--color-error:#EF4444;--color-warning:#F59E0B;--color-glow:#3B82F6;--color-bg:#FFFFFF;--color-surface:#F9FAFB;--color-surface-elevated:#F3F4F6;--color-border:#E5E7EB;--color-border-strong:#6B7280;--color-text-primary:#1F2937;--color-text-secondary:#6B7280;--color-text-disabled:#9CA3AF;--color-text-inverse:#FFFFFF;--color-info-bg:#EFF6FF;--color-info-border:#BFDBFE;--color-info-text:#1E40AF;--color-sent-bg:#DBEAFE;--color-warning-bg:#FEF3C7;--color-success-bg:#D1FAE5;--color-error-bg:#FEE2E2;--color-error-border:#FCA5A5;--color-neutral-300:#D1D5DB;--color-neutral-600:#4B5563;--color-neutral-700:#374151;--font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--max-width:1200px;--border-radius:8px;--transition:all .2s ease}[data-theme="dark"]{--color-primary:#60A5FA;--color-primary-hover:#93C5FD;--color-primary-dark:#2563EB;--color-energy-hover:#FBBF24;--color-success:#34D399;--color-success-text:#34D399;--color-glow:#3B82F6;--color-bg:#0F172A;--color-surface:#1E293B;--color-surface-elevated:#334155;--color-border:#334155;--color-border-strong:#94A3B8;--color-text-primary:#FFFFFF;--color-text-secondary:#94A3B8;--color-text-disabled:#475569;--color-text-inverse:#1F2937;--color-info-bg:#1E3A5F;--color-info-border:#334155;--color-info-text:#93C5FD;--color-sent-bg:#1E3A5F;--color-warning-bg:#2D2006;--color-success-bg:#052E16;--color-error-bg:#3B0A0A;--color-error-border:#7F1D1D}*{margin:0;padding:0;box-sizing:border-box}html{font-size:16px;scroll-behavior:smooth}body{font-family:var(--font-family);color:var(--color-text-primary);background-color:var(--color-bg);line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}h1,h2,h3{font-weight:700;line-height:1.2;margin-bottom:1rem;color:var(--color-text-primary)}h1{font-size:2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}@media (min-width:768px){h1{font-size:2.5rem}h2{font-size:2rem}h3{font-size:1.5rem}}p{margin-bottom:1rem;line-height:1.6}a{color:var(--color-primary);text-decoration:none;transition:var(--transition)}a:hover{color:var(--color-primary-hover)}.container{max-width:var(--max-width);margin:0 auto;padding:0 1.5rem}@media (min-width:768px){.container{padding:0 3rem}}.site-header{background-color:var(--color-bg);border-bottom:1px solid var(--color-border);padding:1rem 0;position:sticky;top:0;z-index:100}.header-content{display:flex;justify-content:space-between;align-items:center}.logo{display:flex;align-items:center;gap:.5rem;font-size:1.25rem;font-weight:700;color:var(--color-text-primary)}.logo-image{width:32px;height:32px}.hero{padding:3rem 0;background:linear-gradient(135deg,var(--color-info-bg) 0%,var(--color-bg) 100%)}.hero-content{display:grid;gap:2rem;align-items:center}.hero-text{text-align:center}.hero h1{font-size:2rem;margin-bottom:1rem}@media (min-width:768px){.hero{padding:4rem 0}.hero-content{grid-template-columns:1fr 1fr;text-align:left}.hero h1{font-size:2.5rem}}@media (max-width:767px){html,body{overflow-x:hidden}.hero-redesign .hero-content{align-items:flex-start}.hero-redesign .hero-text,.hero-text{width:100%;max-width:100%;box-sizing:border-box}.hero-redesign h1,.hero h1{font-size:1.625rem;white-space:normal;word-break:break-word;overflow-wrap:break-word;max-width:100%}}.btn-playstore{display:inline-block}.playstore-badge{height:60px;width:auto}
+      :root{--color-brand-blue:#2563EB;--color-brand-green:#10B981;--color-brand-amber:#F59E0B;--color-brand-night:#0F172A;--color-brand-white:#FFFFFF;--color-brand-charcoal:#1F2937;--color-primary:#2563EB;--color-primary-hover:#1D4ED8;--color-primary-dark:#60A5FA;--color-energy:#F59E0B;--color-energy-hover:#D97706;--color-success:#10B981;--color-success-text:#047857;--color-error:#EF4444;--color-warning:#F59E0B;--color-glow:#3B82F6;--color-bg:#FFFFFF;--color-surface:#F9FAFB;--color-surface-elevated:#F3F4F6;--color-border:#E5E7EB;--color-border-strong:#6B7280;--color-text-primary:#1F2937;--color-text-secondary:#6B7280;--color-text-disabled:#9CA3AF;--color-text-inverse:#FFFFFF;--color-info-bg:#EFF6FF;--color-info-border:#BFDBFE;--color-info-text:#1E40AF;--color-sent-bg:#DBEAFE;--color-warning-bg:#FEF3C7;--color-success-bg:#D1FAE5;--color-error-bg:#FEE2E2;--color-error-border:#FCA5A5;--color-neutral-300:#D1D5DB;--color-neutral-600:#4B5563;--color-neutral-700:#374151;--font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--max-width:1200px;--border-radius:8px;--transition:all .2s ease}[data-theme="dark"]{--color-primary:#60A5FA;--color-primary-hover:#93C5FD;--color-primary-dark:#2563EB;--color-energy-hover:#FBBF24;--color-success:#34D399;--color-success-text:#34D399;--color-glow:#3B82F6;--color-bg:#0F172A;--color-surface:#1E293B;--color-surface-elevated:#334155;--color-border:#334155;--color-border-strong:#94A3B8;--color-text-primary:#FFFFFF;--color-text-secondary:#94A3B8;--color-text-disabled:#475569;--color-text-inverse:#1F2937;--color-info-bg:#1E3A5F;--color-info-border:#334155;--color-info-text:#93C5FD;--color-sent-bg:#1E3A5F;--color-warning-bg:#2D2006;--color-success-bg:#052E16;--color-error-bg:#3B0A0A;--color-error-border:#7F1D1D}*{margin:0;padding:0;box-sizing:border-box}html{font-size:16px;scroll-behavior:smooth}body{font-family:var(--font-family);color:var(--color-text-primary);background-color:var(--color-bg);line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}h1,h2,h3{font-weight:700;line-height:1.2;margin-bottom:1rem;color:var(--color-text-primary)}h1{font-size:2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}@media (min-width:768px){h1{font-size:2.5rem}h2{font-size:2rem}h3{font-size:1.5rem}}p{margin-bottom:1rem;line-height:1.6}a{color:var(--color-primary);text-decoration:none;transition:var(--transition)}a:hover{color:var(--color-primary-hover)}.container{max-width:var(--max-width);margin:0 auto;padding:0 1.5rem}@media (min-width:768px){.container{padding:0 3rem}}.site-header{background-color:rgba(255,255,255,0.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--color-border);padding:1rem 0;position:sticky;top:0;z-index:100}.header-content{display:flex;justify-content:space-between;align-items:center}.logo{display:flex;align-items:center;gap:.5rem;font-size:1.25rem;font-weight:700;color:var(--color-text-primary)}.logo-image{width:32px;height:32px}.hero{padding:3rem 0;background:linear-gradient(135deg,var(--color-info-bg) 0%,var(--color-bg) 100%)}.hero-content{display:grid;gap:2rem;align-items:center}.hero-text{text-align:center}.hero h1{font-size:2rem;margin-bottom:1rem}@media (min-width:768px){.hero{padding:4rem 0}.hero-content{grid-template-columns:1fr 1fr;text-align:left}.hero h1{font-size:2.5rem}}@media (max-width:767px){html,body{overflow-x:hidden}.hero-redesign .hero-content{align-items:flex-start}.hero-redesign .hero-text,.hero-text{width:100%;max-width:100%;box-sizing:border-box}.hero-redesign h1,.hero h1{font-size:1.625rem;white-space:normal;word-break:break-word;overflow-wrap:break-word;max-width:100%}}.btn-playstore{display:inline-block}.playstore-badge{height:60px;width:auto}
     </style>
     
-    <!-- Full Stylesheet -->
-    <link rel="stylesheet" href="/public/css/styles.css">
+    <!-- Full Stylesheet (minified) -->
+    <link rel="stylesheet" href="/public/css/styles.min.css">
     
     <!-- Optimized Font Loading with display=swap -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript>
       <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -146,7 +126,9 @@
     
     {% include "partials/footer.njk" %}
     
-    <!-- Pricing Toggle Script -->
+    <!-- Pricing Toggle Script (only on pages with pricing) -->
+    {% if page.url == "/" or page.url == "/pricing/" %}
     <script src="/public/js/pricing.js" defer></script>
+    {% endif %}
 </body>
 </html>

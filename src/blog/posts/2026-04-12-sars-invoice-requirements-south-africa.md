@@ -1,7 +1,7 @@
 ---
 layout: layouts/blog.njk
 title: "SARS Invoice Requirements: The Complete 2026 Guide"
-description: "Everything South African freelancers and small business owners need to know about SARS invoice requirements. Covers the 7 mandatory fields, 3 invoice types, the 21-day rule, and VAT thresholds — in plain language."
+description: "SARS invoice requirements explained in plain language. The 7 mandatory fields, 3 invoice types, 21-day rule, and VAT thresholds every SA freelancer must know."
 date: 2026-04-12
 category: Compliance
 excerpt: "Not sure what SARS requires on your invoices? This plain-language guide covers the 7 mandatory fields, 3 invoice types, R-value thresholds, the 21-day rule, and real examples — everything you need to stay compliant."
@@ -292,13 +292,15 @@ You don't need to memorise all of this. **KwikInvoice** is built specifically fo
 With KwikInvoice, you get:
 
 - ✅ **All 7 mandatory fields** built into every invoice template
+- ✅ **Pre-flight compliance checker** — validates 8 SARS rules before you share
 - ✅ **Automatic VAT calculation** at 15%
 - ✅ **Sequential invoice numbering** — no gaps, no duplicates
-- ✅ **Professional PDF invoices** you can share via WhatsApp or email
+- ✅ **Your business logo** on every invoice — free, no Pro plan needed
+- ✅ **Professional PDF invoices** you can share via WhatsApp or email in one tap
 - ✅ **All your invoices stored on your device** — ready for SARS if they ever ask
-- ✅ **Works offline** — create invoices on a job site with no signal
+- ✅ **Works offline** — create invoices on a job site with no signal or during load shedding
 
-Stop worrying about whether your invoices are right. **Download KwikInvoice free from the [Google Play Store](https://play.google.com/store/apps/details?id=com.kwikinvoice.app)** and create your first compliant invoice in under two minutes.
+Stop worrying about whether your invoices are right. **Download KwikInvoice free from the [Google Play Store](https://play.google.com/store/apps/details?id=com.kwikinvoice.app)** and create your first compliant invoice in under 60 seconds.
 
 ---
 

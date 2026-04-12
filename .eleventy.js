@@ -25,6 +25,11 @@ module.exports = function(eleventyConfig) {
     });
   });
   
+  // ISO date filter for sitemap
+  eleventyConfig.addFilter("isoDate", dateObj => {
+    return new Date(dateObj).toISOString().split('T')[0];
+  });
+  
   // Limit filter for arrays
   eleventyConfig.addFilter("limit", (array, limit) => {
     return array.slice(0, limit);
