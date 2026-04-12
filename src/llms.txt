@@ -60,4 +60,4 @@ KwikInvoice is an Android-native invoicing application designed specifically for
 
 - Email: kwikinvoice@loggedon.co.za
 - Website: https://kwikinvoice.app
-- Download: https://play.google.com/store/apps/details?id=com.loggedon.kwikinvoice
+- Download: https://play.google.com/store/apps/details?id=com.kwikinvoice.app

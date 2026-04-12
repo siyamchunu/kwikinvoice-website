@@ -35,7 +35,7 @@
     <meta name="ai:language" content="en-ZA">
     <meta name="ai:features" content="invoice generation, PDF creation, client management, payment tracking, offline mode">
     
-    <title>{{ title or 'KwikInvoice' }}{{ ' | KwikInvoice' if title }}</title>
+    <title>{% if title %}{{ title }} | KwikInvoice{% else %}KwikInvoice — Invoice App for South African Freelancers{% endif %}</title>
     
     <!-- JSON-LD Structured Data for AI & SEO -->
     <script type="application/ld+json">
@@ -52,20 +52,19 @@
             "price": "0",
             "priceCurrency": "ZAR"
           },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.5",
-            "ratingCount": "100"
-          },
+          
           "description": "Professional mobile invoicing app for freelancers and small businesses. Create invoices in seconds, track payments, and get paid faster.",
-          "downloadUrl": "https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice",
+          "downloadUrl": "https://play.google.com/store/apps/details?id=com.kwikinvoice.app",
           "screenshot": "{{ site.url }}/public/images/app-screenshot-invoice.png",
           "featureList": [
             "Instant PDF invoice generation",
+            "SARS-compliant tax invoices",
+            "VAT support (15%)",
+            "Business logo on invoices",
             "Client management",
             "Payment tracking",
             "Offline functionality",
-            "Multi-currency support"
+            "WhatsApp invoice sharing"
           ]
         },
         {

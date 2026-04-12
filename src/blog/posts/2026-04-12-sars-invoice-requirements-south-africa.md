@@ -40,7 +40,7 @@ Here's the simple rule:
 
 If you charge VAT on a regular invoice without being VAT registered, that's a problem. And if you're VAT registered but don't issue proper tax invoices, your clients can't claim their VAT back — and SARS may come knocking.
 
-We cover this topic in full detail in our guide: [Tax Invoice vs Invoice in South Africa: What's the Difference?](/blog/tax-invoice-vs-invoice-south-africa/)
+We cover this topic in full detail in our upcoming guide: *Tax Invoice vs Invoice in South Africa: What's the Difference?* (coming soon).
 
 ## The 7 Mandatory Fields on a SARS Tax Invoice
 
@@ -149,7 +149,7 @@ So if Thabo finishes a plumbing job on Monday 3 March, he has until Monday 24 Ma
 - SARS can penalise you for late or missing invoices
 - It's harder to collect payment the longer you wait
 
-**Pro tip:** Don't wait. Invoice the same day you finish the work. With a mobile app like [KwikInvoice](https://play.google.com/store/apps/details?id=com.loggedon.kwikinvoice), you can create and send a compliant invoice from your phone in under two minutes — right there on the job site.
+**Pro tip:** Don't wait. Invoice the same day you finish the work. With a mobile app like [KwikInvoice](https://play.google.com/store/apps/details?id=com.kwikinvoice.app), you can create and send a compliant invoice from your phone in under two minutes — right there on the job site.
 
 ## Do You Need to Issue Tax Invoices?
 
@@ -174,7 +174,7 @@ If your taxable supplies exceed **R50,000 in a 12-month period** (but are under 
 
 If you're not VAT registered, you issue **regular invoices** — not tax invoices. You **must not** charge VAT or show a VAT number. Your invoices should still be professional and include your details, a description of the work, and the amount owed.
 
-We've written a full guide on this topic: [Do I Need to Charge VAT? A Guide for SA Freelancers](/blog/do-i-need-to-charge-vat-south-africa/)
+We've written a full guide on this topic: *Do I Need to Charge VAT? A Guide for SA Freelancers* (coming soon).
 
 ## Real-World Examples
 
@@ -215,7 +215,7 @@ Naledi is a freelance designer whose turnover just passed R1.1 million this year
 
 Because the total exceeds R5,000, this is a **full tax invoice** — so it includes BrightSpark's name, address, and VAT number.
 
-For a step-by-step walkthrough, see our guide: [How to Create a SARS-Compliant Invoice](/blog/how-to-create-sars-compliant-invoice/)
+For a step-by-step walkthrough, see our upcoming guide: *How to Create a SARS-Compliant Invoice* (coming soon).
 
 ## Common Invoice Mistakes to Avoid
 
@@ -229,7 +229,7 @@ Even experienced business owners get tripped up. Here are the most common mistak
 6. **Charging VAT when you're not registered** — this is illegal
 7. **Not keeping copies** — SARS requires you to keep records for 5 years
 
-We've dedicated a full post to this: [7 Invoice Mistakes That Could Get You in Trouble With SARS](/blog/invoice-mistakes-sars-south-africa/)
+We've dedicated a full post to this: *7 Invoice Mistakes That Could Get You in Trouble With SARS* (coming soon).
 
 ## How Long Must You Keep Your Invoices?
 
@@ -239,7 +239,7 @@ If SARS ever audits you, they'll ask for invoices, bank statements, and supporti
 
 **Digital records are perfectly acceptable.** In fact, they're easier to search, harder to lose, and take up zero shelf space. Apps like KwikInvoice store all your invoices on your device so they're always at your fingertips.
 
-Learn more in our detailed guide: [Invoice Record Keeping: What SARS Expects for 5 Years](/blog/invoice-record-keeping-sars-south-africa/)
+Learn more in our upcoming guide: *Invoice Record Keeping: What SARS Expects for 5 Years* (coming soon).
 
 ## Invoicing Tips for Freelancers
 
@@ -253,7 +253,7 @@ Key things every freelancer should know:
 - **Track which invoices are paid and which are outstanding** — cash flow depends on it
 - **Separate business and personal finances** — it makes tax time much easier
 
-For the complete freelancer guide, read: [Invoicing for Freelancers in South Africa: What You Need to Know](/blog/invoicing-for-freelancers-south-africa/)
+For the complete freelancer guide, read: *Invoicing for Freelancers in South Africa: What You Need to Know* (coming soon).
 
 ## Frequently Asked Questions
 
@@ -298,7 +298,7 @@ With KwikInvoice, you get:
 - ✅ **All your invoices stored on your device** — ready for SARS if they ever ask
 - ✅ **Works offline** — create invoices on a job site with no signal
 
-Stop worrying about whether your invoices are right. **Download KwikInvoice free from the [Google Play Store](https://play.google.com/store/apps/details?id=com.loggedon.kwikinvoice)** and create your first compliant invoice in under two minutes.
+Stop worrying about whether your invoices are right. **Download KwikInvoice free from the [Google Play Store](https://play.google.com/store/apps/details?id=com.kwikinvoice.app)** and create your first compliant invoice in under two minutes.
 
 ---
 

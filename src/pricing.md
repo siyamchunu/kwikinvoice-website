@@ -38,7 +38,7 @@ description: "Simple pricing: Start free with 5 invoices/month. Upgrade to Pro f
                     <li><span class="checkmark">✓</span> Works offline</li>
                     <li><span class="checkmark">✓</span> Secure & private</li>
                 </ul>
-                <a href="https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice" class="btn btn-secondary btn-full" target="_blank" rel="noopener">
+                <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-secondary btn-full" target="_blank" rel="noopener">
                     Get Started - It's Free
                 </a>
                 <p class="card-note">No credit card required</p>
@@ -67,7 +67,7 @@ description: "Simple pricing: Start free with 5 invoices/month. Upgrade to Pro f
                     <li><span class="checkmark">✓</span> Fast PDF generation (&lt;200ms)</li>
                     <li><span class="checkmark">✓</span> Priority email support</li>
                 </ul>
-                <a href="https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice" class="btn btn-primary btn-full" target="_blank" rel="noopener">
+                <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-full" target="_blank" rel="noopener">
                     <span class="cta-monthly">Start 7-Day Free Trial</span>
                     <span class="cta-annual" style="display: none;">Start Free Trial - Save 26%</span>
                 </a>
@@ -121,7 +121,7 @@ description: "Simple pricing: Start free with 5 invoices/month. Upgrade to Pro f
         <div class="cta-box">
             <h2>Ready to Get Started?</h2>
             <p>Download KwikInvoice today and create your first invoice in seconds</p>
-            <a href="https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice" class="btn btn-primary btn-large" target="_blank" rel="noopener">
+            <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-large" target="_blank" rel="noopener">
                 Download Free on Google Play
             </a>
         </div>

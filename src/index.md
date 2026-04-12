@@ -53,7 +53,7 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
                 <h1>Create Professional Invoices in Seconds</h1>
                 <p class="hero-subtitle">The fast, simple invoicing app for freelancers and small businesses. Generate PDF invoices, manage clients, and track payments — all from your phone.</p>
                 <div class="hero-cta">
-                    <a href="https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice" class="btn-playstore" target="_blank" rel="noopener">
+                    <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn-playstore" target="_blank" rel="noopener">
                         <picture>
                             <source srcset="/public/images/google-play-badge.webp" type="image/webp">
                             <img src="/public/images/google-play-badge.png" alt="Get it on Google Play" class="playstore-badge" width="202" height="60">
@@ -115,7 +115,7 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
               "@type": "HowToStep",
               "name": "Download KwikInvoice",
               "text": "Download the KwikInvoice app from Google Play Store on your Android device",
-              "url": "https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice"
+              "url": "https://play.google.com/store/apps/details?id=com.kwikinvoice.app"
             },
             {
               "@type": "HowToStep",
@@ -241,7 +241,7 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
                     <li><span class="checkmark">✓</span> Works offline</li>
                     <li><span class="checkmark">✓</span> Secure & private</li>
                 </ul>
-                <a href="https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice" class="btn btn-secondary btn-full" target="_blank" rel="noopener">
+                <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-secondary btn-full" target="_blank" rel="noopener">
                     Get Started - It's Free
                 </a>
                 <p class="card-note">No credit card required</p>
@@ -273,7 +273,7 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
                     <li><span class="checkmark">✓</span> Advanced analytics</li>
                     <li><span class="checkmark">✓</span> Early access to features</li>
                 </ul>
-                <a href="https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice" class="btn btn-primary btn-full" target="_blank" rel="noopener">
+                <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-full" target="_blank" rel="noopener">
                     <span class="cta-monthly">Start 7-Day Free Trial</span>
                     <span class="cta-annual" style="display: none;">Start Free Trial - Save 26%</span>
                 </a>
@@ -322,8 +322,8 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
     <div class="container">
         <div class="cta-box">
             <h2>Ready to Simplify Your Invoicing?</h2>
-            <p>Join thousands of freelancers and small businesses who trust KwikInvoice</p>
-            <a href="https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice" class="btn btn-primary btn-large" target="_blank" rel="noopener">
+            <p>Try KwikInvoice free — create your first professional invoice in under 60 seconds</p>
+            <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-large" target="_blank" rel="noopener">
                 Download Free on Google Play
             </a>
             <p class="cta-note">Free tier includes 5 invoices/month • No credit card required</p>
@@ -356,7 +356,7 @@ description: Create professional invoices in seconds. Free mobile invoicing app 
     <div class="container">
         <h2>Latest Updates</h2>
         <div class="posts-grid">
-            {%- for post in collections.posts | reverse | limit(3) -%}
+            {%- for post in collections.posts | limit(3) -%}
             <article class="post-card">
                 <div class="post-card-header">
                     <time datetime="{{ post.date }}">{{ post.date | readableDate }}</time>

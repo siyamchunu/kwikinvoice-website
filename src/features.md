@@ -61,7 +61,7 @@ description: Lightning-fast PDF generation, offline invoicing, client management
   <section class="cta-box">
     <h2>Ready to Try KwikInvoice?</h2>
     <p>Download now and get 5 free invoices per month - no credit card required.</p>
-    <a href="https://play.google.com/store/apps/details?id=za.co.loggedon.kwikinvoice" class="btn btn-primary" target="_blank" rel="noopener">Download on Google Play</a>
+    <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary" target="_blank" rel="noopener">Download on Google Play</a>
   </section>
 </article>
 
