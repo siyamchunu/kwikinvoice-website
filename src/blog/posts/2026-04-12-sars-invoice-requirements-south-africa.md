@@ -6,7 +6,7 @@ date: 2026-04-12
 category: Compliance
 excerpt: "Not sure what SARS requires on your invoices? This plain-language guide covers the 7 mandatory fields, 3 invoice types, R-value thresholds, the 21-day rule, and real examples — everything you need to stay compliant."
 permalink: /blog/sars-invoice-requirements-south-africa/
-image: /images/blog/sars-invoice-requirements-banner.jpg
+image: /public/images/blog/sars-invoice-requirements-banner.jpg
 imageAlt: "A calculator sitting on top of a wooden table — SARS invoice compliance"
 imageCredit: 'Photo by <a href="https://unsplash.com/@workday" target="_blank" rel="noopener">Workday</a> on <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>'
 tags:
