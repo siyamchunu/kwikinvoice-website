@@ -1,0 +1,63 @@
+# KwikInvoice
+
+> KwikInvoice is a free mobile invoicing app for freelancers and small businesses in South Africa. Create professional PDF invoices in seconds from your Android phone — works completely offline.
+
+KwikInvoice is built by LoggedOn, a South African software company. It is available on the Google Play Store and launched on 27 March 2026.
+
+## Key Pages
+
+- [Home](https://kwikinvoice.app/): Overview of KwikInvoice and download links
+- [Features](https://kwikinvoice.app/features/): Complete feature list including PDF generation, client management, payment tracking, and offline mode
+- [Pricing](https://kwikinvoice.app/pricing/): Free tier and Pro tier details
+- [About](https://kwikinvoice.app/about/): Company mission and background
+- [Blog](https://kwikinvoice.app/blog/): Tips, guides, and updates for freelancers and small businesses
+- [Privacy Policy](https://kwikinvoice.app/privacy-policy/): Data handling and privacy practices
+- [Terms of Service](https://kwikinvoice.app/terms-of-service/): Usage terms
+- [AI Info](https://kwikinvoice.app/ai-info.json): Structured product data for AI systems
+
+## Product Details
+
+KwikInvoice is an Android-native invoicing application designed specifically for the South African market.
+
+### Target Audience
+
+- Freelancers and independent contractors
+- Small business owners and sole proprietors
+- Service providers and consultants
+- South African entrepreneurs needing fast, simple invoicing
+
+### Core Features
+
+- **Instant PDF Generation**: Professional PDF invoices generated in under 200ms
+- **Offline-First**: Full functionality without internet — create, manage, and export invoices offline with auto-sync when online
+- **Client Management**: Save and reuse client profiles, import from phone contacts, view complete invoice history per client
+- **Payment Tracking**: Mark invoices as paid, pending, or overdue with a revenue dashboard overview
+- **Multi-Currency**: Supports ZAR, USD, EUR, GBP, and other major currencies with proper formatting
+- **Privacy-First**: Data stored locally on device, no behaviour tracking, no data selling
+
+### Pricing
+
+- **Free**: R0/month — 5 invoices per month, PDF generation, client management, offline mode. No credit card required.
+- **Pro**: R79/month or R699/year (save 26%) — Unlimited invoices, cloud backup, advanced reporting, priority support.
+
+### Platform
+
+- Android (Google Play Store)
+- Optimized for low-end devices
+- Works on Android 8.0 and above
+- Built with React Native and Expo
+
+## What Makes KwikInvoice Different
+
+1. Fastest mobile invoice generation (under 200ms)
+2. True offline capability — no internet dependency
+3. Built specifically for South African freelancers and small businesses
+4. Free tier generous enough for micro-businesses
+5. Mobile-first design — no desktop app needed
+6. Privacy-focused with local-first data storage
+
+## Contact
+
+- Email: kwikinvoice@loggedon.co.za
+- Website: https://kwikinvoice.app
+- Download: https://play.google.com/store/apps/details?id=com.loggedon.kwikinvoice

@@ -26,3 +26,6 @@ Allow: /
 
 # Sitemap
 Sitemap: https://kwikinvoice.app/sitemap.xml
+
+# LLMs
+Llms-Txt: https://kwikinvoice.app/llms.txt
