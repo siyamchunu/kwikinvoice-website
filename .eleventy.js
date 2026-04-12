@@ -2,6 +2,7 @@ module.exports = function(eleventyConfig) {
   // Copy static assets to output
   eleventyConfig.addPassthroughCopy("public");
   eleventyConfig.addPassthroughCopy("_redirects");
+  eleventyConfig.addPassthroughCopy("_headers");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   
   // Watch CSS for changes during development
