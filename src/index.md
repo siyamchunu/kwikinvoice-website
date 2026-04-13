@@ -102,7 +102,6 @@ description: SARS-compliant tax invoices in 60 seconds. Free mobile invoicing ap
     <div class="container">
         <h2>Built for How South Africa Does Business</h2>
         <p class="section-subtitle">SARS compliance, WhatsApp sharing, and offline capability — designed for freelancers who hustle</p>
-        
         <!-- HowTo Schema for AI Understanding -->
         <script type="application/ld+json">
         {
@@ -140,7 +139,6 @@ description: SARS-compliant tax invoices in 60 seconds. Free mobile invoicing ap
           ]
         }
         </script>
-        
         <div class="features-grid">
             <div class="feature-card">
                 <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg></div>
