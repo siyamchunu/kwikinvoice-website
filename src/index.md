@@ -282,7 +282,7 @@ description: SARS-compliant tax invoices in 60 seconds. Free mobile invoicing ap
 
         <div class="pricing-trust">
             <p>✓ No credit card required for free tier</p>
-            <p>✓ 7-day money-back guarantee on Pro</p>
+            <p>✓ Cancel anytime, no lock-in</p>
             <p>✓ Cancel anytime, no questions asked</p>
         </div>
     </div>
@@ -302,7 +302,7 @@ description: SARS-compliant tax invoices in 60 seconds. Free mobile invoicing ap
             </div>
             <div class="faq-item">
                 <h3>Do you offer refunds?</h3>
-                <p>Yes, 7-day money-back guarantee on all Pro subscriptions.</p>
+                <p>Pro subscriptions can be cancelled anytime from the Google Play Store — no lock-in, no cancellation fees. Your Pro features remain active until the end of your billing period.</p>
             </div>
             <div class="faq-item">
                 <h3>Is my data secure?</h3>
