@@ -21,3 +21,4 @@
 
 /
   Cache-Control: public, max-age=300, must-revalidate
+  Link: </sitemap.xml>; rel="sitemap", </llms.txt>; rel="alternate"; type="text/markdown", </ai-info.json>; rel="describedby"; type="application/json"
