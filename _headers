@@ -22,3 +22,13 @@
 /
   Cache-Control: public, max-age=300, must-revalidate
   Link: </sitemap.xml>; rel="sitemap", </llms.txt>; rel="alternate"; type="text/markdown", </ai-info.json>; rel="describedby"; type="application/json"
+
+/.well-known/agent-skills/index.json
+  Content-Type: application/json
+  Cache-Control: public, max-age=86400
+  Access-Control-Allow-Origin: *
+
+/.well-known/agent-skills/product-info/SKILL.md
+  Content-Type: text/markdown; charset=utf-8
+  Cache-Control: public, max-age=86400
+  Access-Control-Allow-Origin: *

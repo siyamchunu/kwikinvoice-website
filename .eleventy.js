@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_headers");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/llms.txt");
+  eleventyConfig.addPassthroughCopy({"public/.well-known": ".well-known"});
   
   // Watch CSS for changes during development
   eleventyConfig.addWatchTarget("public/css/");

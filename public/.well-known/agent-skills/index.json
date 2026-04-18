@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "product-info",
+      "type": "skill-md",
+      "description": "Retrieve structured product knowledge about KwikInvoice, a free mobile invoicing app for South African freelancers and small businesses.",
+      "url": "/.well-known/agent-skills/product-info/SKILL.md",
+      "digest": "sha256:ee6fd9646e8e5e02b7d3b27e11cffbf72b0bb0fe4c73c4496e9644c917ae2ca5"
+    }
+  ]
+}
