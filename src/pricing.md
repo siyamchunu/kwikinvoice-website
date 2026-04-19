@@ -41,7 +41,7 @@ description: "Start free with 5 SARS-compliant invoices/month including your bus
                     <li><span class="checkmark">✓</span> Works 100% offline</li>
                     <li><span class="checkmark">✓</span> Data stays on your device</li>
                 </ul>
-                <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-secondary btn-full" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">
+                <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-secondary btn-full" target="_blank" rel="noopener" onclick="kwikTrackLead();">
                     Get Started - It's Free
                 </a>
                 <p class="card-note">No credit card required</p>
@@ -69,7 +69,7 @@ description: "Start free with 5 SARS-compliant invoices/month including your bus
                     <li><span class="checkmark">✓</span> Priority email support</li>
                     <li><span class="checkmark">✓</span> Early access to new features</li>
                 </ul>
-                <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-full" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">
+                <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-full" target="_blank" rel="noopener" onclick="kwikTrackLead();">
                     <span class="cta-monthly">Start 7-Day Free Trial</span>
                     <span class="cta-annual" style="display: none;">Start Free Trial - Save 26%</span>
                 </a>
@@ -127,7 +127,7 @@ description: "Start free with 5 SARS-compliant invoices/month including your bus
         <div class="cta-box">
             <h2>Your Hustle Deserves to Get Paid</h2>
             <p>Download KwikInvoice and send your first SARS-compliant invoice in under 60 seconds</p>
-            <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-large" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">
+            <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-large" target="_blank" rel="noopener" onclick="kwikTrackLead();">
                 Download Free on Google Play
             </a>
         </div>

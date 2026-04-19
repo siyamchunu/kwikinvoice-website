@@ -1,0 +1,101 @@
+<!-- Cookie Consent Banner -->
+<div id="cookie-consent-banner" class="consent-banner" style="display: none;" role="dialog" aria-label="Cookie consent" aria-describedby="consent-message">
+    <div class="consent-banner-inner">
+        <p id="consent-message">We use cookies to improve your experience and measure ad performance.</p>
+        <div class="consent-actions">
+            <button id="consent-accept" class="consent-btn consent-btn-accept">Accept</button>
+            <button id="consent-reject" class="consent-btn consent-btn-reject">Reject</button>
+            <a href="/privacy-policy/" class="consent-link">Privacy Policy</a>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    'use strict';
+
+    var CONSENT_KEY = 'cookie_consent';
+    var banner = document.getElementById('cookie-consent-banner');
+    var acceptBtn = document.getElementById('consent-accept');
+    var rejectBtn = document.getElementById('consent-reject');
+
+    function getConsent() {
+        try { return localStorage.getItem(CONSENT_KEY); } catch(e) { return null; }
+    }
+
+    function setConsent(value) {
+        try { localStorage.setItem(CONSENT_KEY, value); } catch(e) {}
+    }
+
+    function removeConsent() {
+        try { localStorage.removeItem(CONSENT_KEY); } catch(e) {}
+    }
+
+    function loadMetaPixel() {
+        if (window.fbq) return; // Already loaded
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1510668903923782');
+        fbq('track', 'PageView');
+    }
+
+    function showBanner() {
+        if (banner) banner.style.display = 'block';
+    }
+
+    function hideBanner() {
+        if (banner) banner.style.display = 'none';
+    }
+
+    // On page load: check stored consent
+    var consent = getConsent();
+    if (consent === 'accepted') {
+        loadMetaPixel();
+    } else if (consent === null) {
+        // No consent stored yet — show the banner
+        showBanner();
+    }
+    // If consent === 'rejected', do nothing (don't show banner, don't load pixel)
+
+    if (acceptBtn) {
+        acceptBtn.addEventListener('click', function() {
+            setConsent('accepted');
+            hideBanner();
+            loadMetaPixel();
+        });
+    }
+
+    if (rejectBtn) {
+        rejectBtn.addEventListener('click', function() {
+            setConsent('rejected');
+            hideBanner();
+        });
+    }
+
+    // Expose function for "Cookie Settings" footer link
+    window.kwikResetCookieConsent = function() {
+        removeConsent();
+        // Remove existing Meta Pixel if loaded
+        if (window.fbq) {
+            delete window.fbq;
+            delete window._fbq;
+        }
+        showBanner();
+        // Scroll to top so banner is visible
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    // Expose consent-check for fbq tracking calls
+    window.kwikTrackLead = function() {
+        if (getConsent() === 'accepted' && typeof fbq === 'function') {
+            fbq('track', 'Lead');
+        }
+    };
+})();
+</script>

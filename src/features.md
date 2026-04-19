@@ -59,7 +59,7 @@ description: SARS-compliant tax invoices, 15% VAT support, WhatsApp sharing, off
   <section class="feature-detail">
     <h2><span class="feature-detail-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></span> Secure &amp; Private</h2>
     <p><strong>Data stays on your device:</strong> No cloud. No servers. No one else has access to your business data.</p>
-    <p><strong>No tracking:</strong> We don't track your behaviour or sell your data. Period.</p>
+    <p><strong>No ads:</strong> We never show ads in the app. Your data stays on your device. We use analytics to improve your experience.</p>
     <p><strong>You own your data:</strong> Your business is your business. We just provide the tool.</p>
   </section>
   
@@ -73,7 +73,7 @@ description: SARS-compliant tax invoices, 15% VAT support, WhatsApp sharing, off
   <section class="cta-box">
     <h2>Your Hustle Deserves to Get Paid</h2>
     <p>Download KwikInvoice free — 5 SARS-compliant invoices per month, your logo included, no credit card required.</p>
-    <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">Download on Google Play</a>
+    <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary" target="_blank" rel="noopener" onclick="kwikTrackLead();">Download on Google Play</a>
   </section>
 </article>
 

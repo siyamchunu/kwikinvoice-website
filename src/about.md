@@ -31,7 +31,7 @@ description: KwikInvoice is the mobile invoicing app built for South African fre
     <p>KwikInvoice is a native Android app — not a website in a wrapper. PDF generation happens in under 200 milliseconds, right on your device. Everything runs locally, so there's nothing to break when the internet goes down.</p>
     
     <h2>Privacy &amp; Security</h2>
-    <p>Your business data is your most valuable asset. KwikInvoice stores everything locally on your device — not on our servers, not in the cloud. We don't track your behaviour, we don't sell your data, and we don't have access to your invoices. You own your data completely.</p>
+    <p>Your business data is your most valuable asset. KwikInvoice stores everything locally on your device — not on our servers, not in the cloud. No ads in the app. Your invoice data stays on your device. We use analytics to improve both the app and website. We don't sell your data, and we don't have access to your invoices. You own your data completely.</p>
     
     <p>Learn more about our <a href="/privacy-policy">Privacy Policy</a> and <a href="/terms-of-service">Terms of Service</a>.</p>
 

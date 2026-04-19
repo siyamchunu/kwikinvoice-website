@@ -149,7 +149,7 @@ So if Thabo finishes a plumbing job on Monday 3 March, he has until Monday 24 Ma
 - SARS can penalise you for late or missing invoices
 - It's harder to collect payment the longer you wait
 
-**Pro tip:** Don't wait. Invoice the same day you finish the work. With a mobile app like <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">KwikInvoice</a>, you can create and send a compliant invoice from your phone in under two minutes — right there on the job site.
+**Pro tip:** Don't wait. Invoice the same day you finish the work. With a mobile app like <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" target="_blank" rel="noopener" onclick="kwikTrackLead();">KwikInvoice</a>, you can create and send a compliant invoice from your phone in under two minutes — right there on the job site.
 
 ## Do You Need to Issue Tax Invoices?
 
@@ -300,7 +300,7 @@ With KwikInvoice, you get:
 - ✅ **All your invoices stored on your device** — ready for SARS if they ever ask
 - ✅ **Works offline** — create invoices on a job site with no signal or during load shedding
 
-Stop worrying about whether your invoices are right. **Download KwikInvoice free from the <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">Google Play Store</a>** and create your first compliant invoice in under 60 seconds.
+Stop worrying about whether your invoices are right. **Download KwikInvoice free from the <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" target="_blank" rel="noopener" onclick="kwikTrackLead();">Google Play Store</a>** and create your first compliant invoice in under 60 seconds.
 
 ---
 

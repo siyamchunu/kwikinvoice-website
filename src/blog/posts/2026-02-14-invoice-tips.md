@@ -91,7 +91,7 @@ Download KwikInvoice today and:
 - Share via WhatsApp or email in one tap
 - Work offline during load shedding
 
-**<a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">Download free on Google Play</a>**
+**<a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" target="_blank" rel="noopener" onclick="kwikTrackLead();">Download free on Google Play</a>**
 
 ---
 

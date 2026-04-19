@@ -312,6 +312,12 @@ KwikInvoice integrates with third-party services:
 - Subject to Google Firebase Terms of Service
 - Privacy Policy: https://firebase.google.com/support/privacy
 
+### Meta (Facebook) Pixel
+- Website advertising measurement and analytics
+- Collects browsing data on kwikinvoice.app with your consent
+- Subject to Meta's Terms of Service and Privacy Policy
+- https://www.facebook.com/privacy/policy/
+
 ### Sharing Services
 - When you share invoices, you use your device's native sharing (WhatsApp, email, etc.)
 - Subject to those apps' terms and privacy policies

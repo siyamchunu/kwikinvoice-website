@@ -85,7 +85,7 @@ When you use KwikInvoice, you may provide the following information:
 - **Payment Information:** We do not collect or store credit card information or payment details. All payments are processed securely through Google Play Billing
 - **Personal Identification Documents:** We do not collect ID numbers, passports, or other government-issued identification
 - **Location Data:** We do not track your physical location
-- **Browsing History:** We do not track your web browsing or other app usage outside of KwikInvoice
+- **Browsing History:** The KwikInvoice app does not track your web browsing or other app usage outside of KwikInvoice. Our website (kwikinvoice.app) uses Meta Pixel for advertising measurement with your consent — see "Cookies & Website Tracking" below
 - **Biometric Data:** We do not collect fingerprints, facial recognition data, or other biometric information
 
 ---
@@ -161,9 +161,10 @@ The following table summarises the third-party services used by KwikInvoice:
 | Google Play Billing | Payment processing | Subscription status only | USA (Google LLC) | [policies.google.com/privacy](https://policies.google.com/privacy) |
 | Google Play In-App Review API | In-app review prompt | No personal data collected by us; review content goes directly to Google Play | USA (Google LLC) | [policies.google.com/privacy](https://policies.google.com/privacy) |
 | Expo (Development Framework) | App framework and development tools | Basic device and app version information (in development mode only) | USA | [Expo Privacy Policy](https://expo.dev/privacy) |
+| Meta Platforms (Facebook Pixel) | Website advertising & analytics | IP address, browsing behaviour, device info | USA (Meta Platforms, Inc.) | [Meta Privacy Policy](https://www.facebook.com/privacy/policy/) |
 
 **Cross-Border Data Transfer (POPIA Section 72):**
-RevenueCat and Google Firebase Analytics are US-based services. Under POPIA Section 72, cross-border transfer of personal information requires your consent or adequate protection. By using KwikInvoice's analytics features and subscribing to Pro, you consent to the transfer of the above-described anonymous analytics data and subscription management data to these US-based processors. Both Google and RevenueCat maintain data protection practices that provide adequate safeguards for your data.
+RevenueCat, Google Firebase Analytics, and Meta Platforms are US-based services. Under POPIA Section 72, cross-border transfer of personal information requires your consent or adequate protection. By using KwikInvoice's analytics features, subscribing to Pro, and accepting cookies on our website, you consent to the transfer of the above-described anonymous analytics data, subscription management data, and website browsing data to these US-based processors. Google, RevenueCat, and Meta maintain data protection practices that provide adequate safeguards for your data.
 
 **1. Google Play Billing**
 - **Purpose:** Process subscription payments
@@ -201,6 +202,18 @@ RevenueCat and Google Firebase Analytics are US-based services. Under POPIA Sect
 - **Data Shared:** Basic device and app version information (in development mode only)
 - **Privacy Policy:** [Expo Privacy Policy](https://expo.dev/privacy)
 
+**6. Meta (Facebook) Pixel — Website Only**
+- **Purpose:** Measure advertising effectiveness on kwikinvoice.app, show relevant ads on Facebook/Instagram, and improve marketing
+- **Data Shared:**
+  - IP address and browser type
+  - Pages visited on kwikinvoice.app
+  - Actions taken (e.g., download button clicks)
+  - Device information
+- **Cookies Used:** _fbp (browser identifier), _fbc (click identifier)
+- **Consent Required:** Yes — Meta Pixel only loads after you accept cookies via the consent banner on our website
+- **Note:** Meta Platforms, Inc. is a US-based company. Under POPIA Section 72, cross-border transfers require consent or adequate protection. By accepting cookies on our website, you consent to this transfer of website browsing data to Meta's US-based servers
+- **Privacy Policy:** [Meta Privacy Policy](https://www.facebook.com/privacy/policy/)
+
 ### Data Sharing Scenarios
 
 We may share your information only in the following limited circumstances:
@@ -217,6 +230,30 @@ We may share your information only in the following limited circumstances:
 **3. Business Transfers**
 - In the event of a merger, acquisition, or sale of assets, your information may be transferred
 - You will be notified via email and/or prominent notice in the app
+
+---
+
+## Cookies & Website Tracking (kwikinvoice.app)
+
+The KwikInvoice app does not show advertisements and stores your invoice data locally on your device. We use Firebase Analytics in the app and Meta Pixel on our website to understand usage patterns and improve our products.
+
+When you visit our website, we may use the following with your consent:
+
+### Meta (Facebook) Pixel
+- **Purpose:** Measure advertising effectiveness, show relevant ads on Facebook/Instagram, and improve our marketing
+- **Data collected:** IP address, browser type, pages visited, actions taken (e.g., download clicks)
+- **Cookies:** _fbp (browser identifier), _fbc (click identifier)
+- **Data recipient:** Meta Platforms, Inc. (USA)
+- **Your control:** You can accept or reject tracking cookies via the banner on our website. You can change your preference at any time via "Cookie Settings" in the footer.
+- **Meta's Privacy Policy:** [https://www.facebook.com/privacy/policy/](https://www.facebook.com/privacy/policy/)
+
+### Essential Cookies
+- Cookie consent preference (remembers your choice) — no personal data stored
+
+### How to Opt Out
+- Use the cookie consent banner on our website
+- Click "Cookie Settings" in the footer to change your preference
+- Visit Meta Ad Preferences: [https://www.facebook.com/adpreferences](https://www.facebook.com/adpreferences)
 
 ---
 
@@ -367,7 +404,7 @@ KwikInvoice follows Google Play's data safety requirements:
 - ✅ **Users Can Request Data Deletion:** Yes (uninstall app or delete within app)
 - ✅ **Data Used for App Functionality:** Yes
 - ❌ **Data Sold to Third Parties:** No
-- ❌ **Data Shared for Advertising:** No
+- ⚠️ **Data Shared for Advertising:** Website browsing data shared with Meta for advertising (with your consent). The app does not share data for advertising.
 
 ---
 

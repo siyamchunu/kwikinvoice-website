@@ -53,7 +53,7 @@ description: SARS-compliant tax invoices in 60 seconds. Free mobile invoicing ap
                 <h1>SARS-Compliant Invoices in 60 Seconds</h1>
                 <p class="hero-subtitle">Built for South African freelancers who need to get paid. Tax invoices with all 7 SARS-mandatory fields, 15% VAT calculated automatically, share via WhatsApp — and it works offline during load shedding.</p>
                 <div class="hero-cta">
-                    <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn-playstore" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">
+                    <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn-playstore" target="_blank" rel="noopener" onclick="kwikTrackLead();">
                         <picture>
                             <source srcset="/public/images/google-play-badge.webp" type="image/webp">
                             <img src="/public/images/google-play-badge.png" alt="Get it on Google Play" class="playstore-badge" width="202" height="60">
@@ -241,7 +241,7 @@ description: SARS-compliant tax invoices in 60 seconds. Free mobile invoicing ap
                     <li><span class="checkmark">✓</span> Client management</li>
                     <li><span class="checkmark">✓</span> Works 100% offline</li>
                 </ul>
-                <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-secondary btn-full" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">
+                <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-secondary btn-full" target="_blank" rel="noopener" onclick="kwikTrackLead();">
                     Get Started - It's Free
                 </a>
                 <p class="card-note">No credit card required</p>
@@ -269,7 +269,7 @@ description: SARS-compliant tax invoices in 60 seconds. Free mobile invoicing ap
                     <li><span class="checkmark">✓</span> Priority email support</li>
                     <li><span class="checkmark">✓</span> Early access to new features</li>
                 </ul>
-                <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-full" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">
+                <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-full" target="_blank" rel="noopener" onclick="kwikTrackLead();">
                     <span class="cta-monthly">Start 7-Day Free Trial</span>
                     <span class="cta-annual" style="display: none;">Start Free Trial - Save 26%</span>
                 </a>
@@ -319,7 +319,7 @@ description: SARS-compliant tax invoices in 60 seconds. Free mobile invoicing ap
         <div class="cta-box">
             <h2>Your Hustle Deserves to Get Paid</h2>
             <p>Join South African freelancers who invoice in 60 seconds — SARS-compliant, WhatsApp-ready, and load shedding proof</p>
-            <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-large" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">
+            <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary btn-large" target="_blank" rel="noopener" onclick="kwikTrackLead();">
                 Download Free on Google Play
             </a>
             <p class="cta-note">Free tier includes 5 SARS-compliant invoices/month • No credit card required</p>

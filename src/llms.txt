@@ -35,7 +35,7 @@ KwikInvoice is an Android-native invoicing application designed specifically for
 - **Invoice Status Tracking** (Pro): Mark invoices as paid or unpaid with a dashboard overview
 - **Business Logo**: Upload your logo to appear on every invoice — included free
 - **WhatsApp Sharing**: Share PDF invoices directly via WhatsApp, email, or any messaging app
-- **Privacy-First**: Data stored locally on device, no behaviour tracking, no data selling
+- **Privacy-First**: No ads in-app, data stored locally on device, analytics used to improve experience
 
 ### Pricing
 
