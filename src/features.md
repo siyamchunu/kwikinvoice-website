@@ -73,7 +73,7 @@ description: SARS-compliant tax invoices, 15% VAT support, WhatsApp sharing, off
   <section class="cta-box">
     <h2>Your Hustle Deserves to Get Paid</h2>
     <p>Download KwikInvoice free — 5 SARS-compliant invoices per month, your logo included, no credit card required.</p>
-    <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary" target="_blank" rel="noopener">Download on Google Play</a>
+    <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn btn-primary" target="_blank" rel="noopener" onclick="fbq('track', 'Lead');">Download on Google Play</a>
   </section>
 </article>
 
