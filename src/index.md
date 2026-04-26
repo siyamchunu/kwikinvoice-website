@@ -53,7 +53,7 @@ description: SARS-compliant tax invoices in 60 seconds. Free mobile invoicing ap
                 <h1>SARS-Compliant Invoices in 60 Seconds</h1>
                 <p class="hero-subtitle">Built for South African freelancers who need to get paid. Tax invoices with all 7 SARS-mandatory fields, 15% VAT calculated automatically, share via WhatsApp — and it works offline during load shedding.</p>
                 <div class="hero-cta">
-                    <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app" class="btn-playstore" target="_blank" rel="noopener" onclick="kwikTrackLead();">
+                    <a href="https://play.google.com/store/apps/details?id=com.kwikinvoice.app&utm_source=website&utm_medium=homepage_badge" class="btn-playstore" target="_blank" rel="noopener" onclick="kwikTrackLead();">
                         <picture>
                             <source srcset="/public/images/google-play-badge.webp" type="image/webp">
                             <img src="/public/images/google-play-badge.png" alt="Get it on Google Play" class="playstore-badge" width="202" height="60">
